@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="com.barchart.udt"
+		module="barchart-udt-bundle"
+		revision="2.3.0"
+		status="release"
+		publication="20130513225742"
+	>
+		<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php" />
+		<description homepage="https://github.com/barchart/barchart-udt/wiki">
+		Barchart UDT [ BUNDLE ]
+		</description>
+		<m:properties__dependencyUnpack>${basedir}/target/nar-all</m:properties__dependencyUnpack>
+		<m:properties__dependencyGroupId>com.barchart.udt</m:properties__dependencyGroupId>
+		<m:properties__dependencyArtifactId>barchart-udt-core</m:properties__dependencyArtifactId>
+		<m:properties__dependencyVersion>${snapshotVersion}</m:properties__dependencyVersion>
+		<m:properties__mac64>x86_64-MacOSX-gpp-jni</m:properties__mac64>
+		<m:properties__mac32>i386-MacOSX-gpp-jni</m:properties__mac32>
+		<m:properties__projectMavenVersion>3.0.4</m:properties__projectMavenVersion>
+		<m:properties__win64>amd64-Windows-gpp-jni</m:properties__win64>
+		<m:properties__win32>x86-Windows-gpp-jni</m:properties__win32>
+		<m:properties__projectJavaVersion>1.6</m:properties__projectJavaVersion>
+		<m:properties__projectBuildStamp>build stamp: ${project.artifactId} ${project.version} ${projectTimeISO}</m:properties__projectBuildStamp>
+		<m:properties__lin64>amd64-Linux-gpp-jni</m:properties__lin64>
+		<m:properties__narPluginVersion>20121119</m:properties__narPluginVersion>
+		<m:properties__lin32>i386-Linux-gpp-jni</m:properties__lin32>
+		<m:properties__narPluginArtifactId>maven-nar-plugin</m:properties__narPluginArtifactId>
+		<m:properties__narPluginGroupId>org.codeswarm</m:properties__narPluginGroupId>
+		<m:properties__arm>arm-Linux-gpp-jni</m:properties__arm>
+		<m:properties__sonatypeArchonURL>${sonatypeNexusURL}/content/groups/public</m:properties__sonatypeArchonURL>
+		<m:properties__releaseProfiles/>
+		<m:properties__maven.site.skip>true</m:properties__maven.site.skip>
+		<m:properties__sonatypeStagingURL>${sonatypeNexusURL}/service/local/staging/deploy/maven2</m:properties__sonatypeStagingURL>
+		<m:properties__barchartSnapshotsURL>${barchartNexusURL}/content/repositories/snapshots</m:properties__barchartSnapshotsURL>
+		<m:properties__barchartBuildUser>${user.name}</m:properties__barchartBuildUser>
+		<m:properties__releasePrepareGoals>clean verify</m:properties__releasePrepareGoals>
+		<m:properties__releasePerformGoals>deploy</m:properties__releasePerformGoals>
+		<m:properties__sonatypeSnapshotsURL>${sonatypeNexusURL}/content/repositories/snapshots</m:properties__sonatypeSnapshotsURL>
+		<m:properties__projectScalaVersion>2.9.2</m:properties__projectScalaVersion>
+		<m:properties__sonatypeReleaseURL>${sonatypeNexusURL}/content/repositories/releases</m:properties__sonatypeReleaseURL>
+		<m:properties__barchartReleaseURL>${barchartNexusURL}/content/repositories/releases</m:properties__barchartReleaseURL>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:properties__maven.site.deploy.skip>true</m:properties__maven.site.deploy.skip>
+		<m:properties__amazonActiveRepo>activate-via-profile</m:properties__amazonActiveRepo>
+		<m:properties__bundleServiceComponent>OSGI-INF/service-component</m:properties__bundleServiceComponent>
+		<m:properties__amazonReleaseRepo>maven.aws.barchart.com</m:properties__amazonReleaseRepo>
+		<m:properties__sonatypeNexusURL>https://oss.sonatype.org</m:properties__sonatypeNexusURL>
+		<m:properties__barchartArchonURL>${barchartNexusURL}/content/groups/archon</m:properties__barchartArchonURL>
+		<m:properties__project.reporting.outputEncoding>UTF-8</m:properties__project.reporting.outputEncoding>
+		<m:properties__bundleConsumerPolicy>$&lt;range;[==,+)></m:properties__bundleConsumerPolicy>
+		<m:properties__bundleBaselineVersion>RELEASE</m:properties__bundleBaselineVersion>
+		<m:properties__projectTestingVersion>2.14</m:properties__projectTestingVersion>
+		<m:properties__barchartNexusURL>https://nexus.barchart.com</m:properties__barchartNexusURL>
+		<m:properties__amazonStagingRepo>maven.aws-dev.barchart.com</m:properties__amazonStagingRepo>
+		<m:properties__bundleProviderPolicy>$&lt;range;[==,=+)></m:properties__bundleProviderPolicy>
+		<m:properties__bundle.manifest.testing.phase>process-ignored</m:properties__bundle.manifest.testing.phase>
+		<m:properties__projectIntegrationVersion>${integrationVersion}</m:properties__projectIntegrationVersion>
+		<m:dependency.management__org.scala-lang__scala-library__version>2.9.2</m:dependency.management__org.scala-lang__scala-library__version>
+		<m:dependency.management__org.osgi__org.osgi.core__version>4.3.1</m:dependency.management__org.osgi__org.osgi.core__version>
+		<m:dependency.management__org.osgi__org.osgi.compendium__version>4.3.1</m:dependency.management__org.osgi__org.osgi.compendium__version>
+		<m:dependency.management__joda-time__joda-time__version>2.2</m:dependency.management__joda-time__joda-time__version>
+		<m:dependency.management__org.slf4j__slf4j-api__version>1.7.4</m:dependency.management__org.slf4j__slf4j-api__version>
+		<m:dependency.management__ch.qos.logback__logback-core__version>1.0.10</m:dependency.management__ch.qos.logback__logback-core__version>
+		<m:dependency.management__ch.qos.logback__logback-classic__version>1.0.10</m:dependency.management__ch.qos.logback__logback-classic__version>
+		<m:dependency.management__junit__junit__version>4.11</m:dependency.management__junit__junit__version>
+		<m:dependency.management__org.easymock__easymock__version>3.1</m:dependency.management__org.easymock__easymock__version>
+		<m:dependency.management__org.mockito__mockito-all__version>1.9.5</m:dependency.management__org.mockito__mockito-all__version>
+		<m:maven.plugins>org.apache.maven.plugins__maven-enforcer-plugin__null|org.apache.maven.plugins__maven-compiler-plugin__null|com.carrotgarden.maven__carrot-maven-scr-plugin__null|org.apache.felix__maven-bundle-plugin__null|org.codehaus.mojo__groovy-maven-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__null|org.apache.maven.plugins__maven-compiler-plugin__null|com.carrotgarden.maven__carrot-maven-scr-plugin__null|org.apache.felix__maven-bundle-plugin__null|org.codehaus.mojo__groovy-maven-plugin__null|org.apache.maven.plugins__maven-release-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__null|org.apache.maven.plugins__maven-compiler-plugin__null|com.carrotgarden.maven__carrot-maven-scr-plugin__null|org.apache.felix__maven-bundle-plugin__null|org.codehaus.mojo__groovy-maven-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__null|org.apache.maven.plugins__maven-compiler-plugin__null|com.carrotgarden.maven__carrot-maven-scr-plugin__null|org.apache.felix__maven-bundle-plugin__null|org.codehaus.mojo__groovy-maven-plugin__null|org.apache.maven.plugins__maven-release-plugin__null</m:maven.plugins>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="public" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+		<artifact name="barchart-udt-bundle" type="bundle" ext="jar" conf="master"/>
+		<artifact name="barchart-udt-bundle" type="source" ext="jar" conf="sources" m:classifier="sources"/>
+		<artifact name="barchart-udt-bundle" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="junit" name="junit" rev="4.11" force="true" conf="test->runtime(*),master(*)"/>
+		<override org="org.scala-lang" module="scala-library" matcher="exact" rev="2.9.2"/>
+		<override org="org.osgi" module="org.osgi.core" matcher="exact" rev="4.3.1"/>
+		<override org="org.osgi" module="org.osgi.compendium" matcher="exact" rev="4.3.1"/>
+		<override org="joda-time" module="joda-time" matcher="exact" rev="2.2"/>
+		<override org="org.slf4j" module="slf4j-api" matcher="exact" rev="1.7.4"/>
+		<override org="ch.qos.logback" module="logback-core" matcher="exact" rev="1.0.10"/>
+		<override org="ch.qos.logback" module="logback-classic" matcher="exact" rev="1.0.10"/>
+		<override org="junit" module="junit" matcher="exact" rev="4.11"/>
+		<override org="org.easymock" module="easymock" matcher="exact" rev="3.1"/>
+		<override org="org.mockito" module="mockito-all" matcher="exact" rev="1.9.5"/>
+	</dependencies>
+</ivy-module>

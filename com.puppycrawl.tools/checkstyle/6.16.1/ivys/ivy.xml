@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="com.puppycrawl.tools"
+		module="checkstyle"
+		revision="6.16.1"
+		status="release"
+		publication="20160303232952"
+	>
+		<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt" />
+		<description homepage="http://checkstyle.sourceforge.net/">
+		Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard
+		</description>
+		<m:properties__maven.findbugs.plugin.version>3.0.3</m:properties__maven.findbugs.plugin.version>
+		<m:properties__java.version>1.7</m:properties__java.version>
+		<m:properties__antlr4.version>4.5.2-1</m:properties__antlr4.version>
+		<m:properties__maven.checkstyle.plugin.version>2.17</m:properties__maven.checkstyle.plugin.version>
+		<m:properties__tools.jar.version>1.7.0</m:properties__tools.jar.version>
+		<m:properties__project.reporting.outputEncoding>UTF-8</m:properties__project.reporting.outputEncoding>
+		<m:properties__maven.jacoco.plugin.version>0.7.6.201602180812</m:properties__maven.jacoco.plugin.version>
+		<m:properties__maven.sevntu.checkstyle.plugin.version>1.18.0</m:properties__maven.sevntu.checkstyle.plugin.version>
+		<m:properties__tools.jar.path>${java.home}/../lib/tools.jar</m:properties__tools.jar.path>
+		<m:properties__checkstyle.version>6.16</m:properties__checkstyle.version>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:properties__maven.pmd.plugin.version>3.6</m:properties__maven.pmd.plugin.version>
+		<m:properties__maven.site.plugin.version>3.4</m:properties__maven.site.plugin.version>
+		<m:properties__projectVersion>${project.version}</m:properties__projectVersion>
+		<e:sbtTransformHash>5fa1f0086b0d4682f9eeb0414a48a69059ddf532</e:sbtTransformHash>
+		<m:properties__sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</m:properties__sonatypeOssDistMgmtSnapshotsUrl>
+		<m:maven.plugins>org.apache.maven.plugins__maven-enforcer-plugin__1.2|org.apache.maven.plugins__maven-enforcer-plugin__1.2|org.apache.maven.plugins__maven-checkstyle-plugin__2.17|org.apache.maven.plugins__maven-clean-plugin__3.0.0|org.apache.maven.plugins__maven-resources-plugin__2.7|org.apache.maven.plugins__maven-compiler-plugin__3.5.1|org.apache.maven.plugins__maven-install-plugin__2.5.2|org.apache.maven.plugins__maven-deploy-plugin__2.8.2|org.codehaus.mojo__versions-maven-plugin__2.2|org.sonatype.plugins__nexus-staging-maven-plugin__1.6.6|org.apache.maven.plugins__maven-site-plugin__3.4|org.apache.maven.plugins__maven-enforcer-plugin__1.4.1|org.codehaus.mojo__antlr-maven-plugin__2.2|org.antlr__antlr4-maven-plugin__4.5.2-1|org.codehaus.mojo__build-helper-maven-plugin__1.10|org.apache.maven.plugins__maven-failsafe-plugin__2.19.1|org.apache.maven.plugins__maven-surefire-plugin__2.19.1|org.apache.maven.plugins__maven-antrun-plugin__1.8|org.apache.maven.plugins__maven-jar-plugin__2.6|org.apache.maven.plugins__maven-eclipse-plugin__2.10|org.apache.maven.plugins__maven-pmd-plugin__null|org.codehaus.mojo__findbugs-maven-plugin__null|org.codehaus.mojo__xml-maven-plugin__1.0.1|de.thetaphi__forbiddenapis__2.0|org.codehaus.mojo__cobertura-maven-plugin__2.7</m:maven.plugins>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="public" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+		<artifact name="checkstyle" type="jar" ext="jar" conf="master"/>
+		<artifact name="checkstyle" type="source" ext="jar" conf="sources" m:classifier="sources"/>
+		<artifact name="checkstyle" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.apache.commons" name="commons-lang3" rev="3.4" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="antlr" name="antlr" rev="2.7.7" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="org.antlr" name="antlr4-runtime" rev="4.5.2-1" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="commons-beanutils" name="commons-beanutils" rev="1.9.2" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="commons-cli" name="commons-cli" rev="1.3.1" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="com.google.guava" name="guava" rev="19.0" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="org.apache.ant" name="ant" rev="1.9.6" force="true" conf="provided->compile(*),provided(*),runtime(*),master(*)"/>
+		<dependency org="junit" name="junit" rev="4.12" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="com.github.stefanbirkner" name="system-rules" rev="1.16.0" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="nl.jqno.equalsverifier" name="equalsverifier" rev="1.7.7" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="org.powermock" name="powermock-api-mockito" rev="1.6.4" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="org.powermock" name="powermock-module-junit4" rev="1.6.4" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="commons-io" name="commons-io" rev="2.4" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="org.eclipse.jgit" name="org.eclipse.jgit" rev="4.2.0.201601211800-r" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="org.slf4j" name="slf4j-simple" rev="1.7.18" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="org.jacoco" name="org.jacoco.agent" rev="0.7.6.201602180812" force="true" conf="test->runtime(*),master(*)">
+			<artifact name="org.jacoco.agent" type="jar" ext="jar" conf="" m:classifier="runtime"/>
+		</dependency>
+		<dependency org="com.sun" name="tools" rev="1.7.0" force="true" conf="system->master(*)"/>
+	</dependencies>
+</ivy-module>

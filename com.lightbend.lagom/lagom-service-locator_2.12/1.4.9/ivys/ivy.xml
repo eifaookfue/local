@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="com.lightbend.lagom"
+		module="lagom-service-locator_2.12"
+		revision="1.4.9"
+		status="release"
+		publication="20181116014038"
+	>
+		<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html" />
+		<description homepage="https://www.lagomframework.com/">
+		lagom-service-locator
+		</description>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-api_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-api_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-api_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-api_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-server_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-server_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-server_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-server_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-client_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-client_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-client_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-client_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-broker_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-broker_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-broker_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-broker_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-kafka-client_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-kafka-client_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-kafka-client_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-kafka-client_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-kafka-broker_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-kafka-broker_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-kafka-broker_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-kafka-broker_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-cluster_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-cluster_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-cluster_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-cluster_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-persistence_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-persistence_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-persistence_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-persistence_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-persistence-cassandra_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-persistence-cassandra_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-persistence-cassandra_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-persistence-cassandra_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-persistence-jdbc_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-persistence-jdbc_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-persistence-jdbc_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-persistence-jdbc_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-persistence-jpa_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-persistence-jpa_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-persistence-jpa_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-persistence-jpa_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-pubsub_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-pubsub_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-pubsub_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-pubsub_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-jackson_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-jackson_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-jackson_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-jackson_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-testkit_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-testkit_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-testkit_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-testkit_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-immutables_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-immutables_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-immutables_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-immutables_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-integration-client_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-integration-client_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-javadsl-integration-client_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-javadsl-integration-client_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__api-tools_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__api-tools_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__api-tools_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__api-tools_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-api_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-api_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-api_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-api_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-client_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-client_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-client_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-client_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-server_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-server_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-server_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-server_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-spi_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-spi_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-spi_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-spi_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-cluster-core_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-cluster-core_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-cluster-core_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-cluster-core_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-kafka-client_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-kafka-client_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-kafka-client_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-kafka-client_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-kafka-broker_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-kafka-broker_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-kafka-broker_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-kafka-broker_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-persistence-core_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-persistence-core_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-persistence-core_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-persistence-core_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-persistence-cassandra-core_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-persistence-cassandra-core_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-persistence-cassandra-core_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-persistence-cassandra-core_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-persistence-jdbc-core_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-persistence-jdbc-core_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-persistence-jdbc-core_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-persistence-jdbc-core_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-core-testkit_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-core-testkit_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-core-testkit_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-core-testkit_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-logback_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-logback_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-logback_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-logback_2.11__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-log4j2_2.12__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-log4j2_2.12__version>
+		<m:dependency.management__com.lightbend.lagom__lagom-log4j2_2.11__version>1.4.9</m:dependency.management__com.lightbend.lagom__lagom-log4j2_2.11__version>
+		<m:dependency.management__aopalliance__aopalliance__version>1.0</m:dependency.management__aopalliance__aopalliance__version>
+		<m:dependency.management__com.datastax.cassandra__cassandra-driver-core__version>3.2.0</m:dependency.management__com.datastax.cassandra__cassandra-driver-core__version>
+		<m:dependency.management__com.fasterxml.jackson.module__jackson-module-parameter-names__version>2.8.11</m:dependency.management__com.fasterxml.jackson.module__jackson-module-parameter-names__version>
+		<m:dependency.management__com.github.dnvriend__akka-persistence-jdbc_2.12__version>3.4.0</m:dependency.management__com.github.dnvriend__akka-persistence-jdbc_2.12__version>
+		<m:dependency.management__com.github.dnvriend__akka-persistence-jdbc_2.11__version>3.4.0</m:dependency.management__com.github.dnvriend__akka-persistence-jdbc_2.11__version>
+		<m:dependency.management__com.github.jnr__jffi__version>1.2.16</m:dependency.management__com.github.jnr__jffi__version>
+		<m:dependency.management__com.github.jnr__jnr-constants__version>0.9.9</m:dependency.management__com.github.jnr__jnr-constants__version>
+		<m:dependency.management__com.github.jnr__jnr-ffi__version>2.1.7</m:dependency.management__com.github.jnr__jnr-ffi__version>
+		<m:dependency.management__com.github.jnr__jnr-posix__version>3.0.27</m:dependency.management__com.github.jnr__jnr-posix__version>
+		<m:dependency.management__com.github.jnr__jnr-x86asm__version>1.0.2</m:dependency.management__com.github.jnr__jnr-x86asm__version>
+		<m:dependency.management__com.google.code.findbugs__jsr305__version>1.3.9</m:dependency.management__com.google.code.findbugs__jsr305__version>
+		<m:dependency.management__com.google.errorprone__error_prone_annotations__version>2.0.18</m:dependency.management__com.google.errorprone__error_prone_annotations__version>
+		<m:dependency.management__com.google.guava__guava__version>22.0</m:dependency.management__com.google.guava__guava__version>
+		<m:dependency.management__com.google.j2objc__j2objc-annotations__version>1.1</m:dependency.management__com.google.j2objc__j2objc-annotations__version>
+		<m:dependency.management__com.google.inject__guice__version>4.1.0</m:dependency.management__com.google.inject__guice__version>
+		<m:dependency.management__com.google.inject.extensions__guice-assistedinject__version>4.1.0</m:dependency.management__com.google.inject.extensions__guice-assistedinject__version>
+		<m:dependency.management__com.googlecode.usc__jdbcdslog__version>1.0.6.2</m:dependency.management__com.googlecode.usc__jdbcdslog__version>
+		<m:dependency.management__javax.xml.bind__jaxb-api__version>2.3.0</m:dependency.management__javax.xml.bind__jaxb-api__version>
+		<m:dependency.management__com.h2database__h2__version>1.4.192</m:dependency.management__com.h2database__h2__version>
+		<m:dependency.management__com.jolbox__bonecp__version>0.8.0.RELEASE</m:dependency.management__com.jolbox__bonecp__version>
+		<m:dependency.management__com.lmax__disruptor__version>3.3.6</m:dependency.management__com.lmax__disruptor__version>
+		<m:dependency.management__com.novocode__junit-interface__version>0.11</m:dependency.management__com.novocode__junit-interface__version>
+		<m:dependency.management__com.typesafe__config__version>1.3.3</m:dependency.management__com.typesafe__config__version>
+		<m:dependency.management__com.typesafe__ssl-config-core_2.12__version>0.3.6</m:dependency.management__com.typesafe__ssl-config-core_2.12__version>
+		<m:dependency.management__com.typesafe__ssl-config-core_2.11__version>0.3.6</m:dependency.management__com.typesafe__ssl-config-core_2.11__version>
+		<m:dependency.management__com.typesafe.akka__akka-http-core_2.12__version>10.0.14</m:dependency.management__com.typesafe.akka__akka-http-core_2.12__version>
+		<m:dependency.management__com.typesafe.akka__akka-http-core_2.11__version>10.0.14</m:dependency.management__com.typesafe.akka__akka-http-core_2.11__version>
+		<m:dependency.management__com.typesafe.akka__akka-stream-kafka_2.12__version>0.18</m:dependency.management__com.typesafe.akka__akka-stream-kafka_2.12__version>
+		<m:dependency.management__com.typesafe.akka__akka-stream-kafka_2.11__version>0.18</m:dependency.management__com.typesafe.akka__akka-stream-kafka_2.11__version>
+		<m:dependency.management__com.typesafe.akka__akka-parsing_2.12__version>10.0.14</m:dependency.management__com.typesafe.akka__akka-parsing_2.12__version>
+		<m:dependency.management__com.typesafe.akka__akka-parsing_2.11__version>10.0.14</m:dependency.management__com.typesafe.akka__akka-parsing_2.11__version>
+		<m:dependency.management__com.typesafe.akka__akka-persistence-cassandra_2.12__version>0.61</m:dependency.management__com.typesafe.akka__akka-persistence-cassandra_2.12__version>
+		<m:dependency.management__com.typesafe.akka__akka-persistence-cassandra_2.11__version>0.61</m:dependency.management__com.typesafe.akka__akka-persistence-cassandra_2.11__version>
+		<m:dependency.management__com.typesafe.akka__akka-persistence-cassandra-launcher_2.12__version>0.61</m:dependency.management__com.typesafe.akka__akka-persistence-cassandra-launcher_2.12__version>
+		<m:dependency.management__com.typesafe.akka__akka-persistence-cassandra-launcher_2.11__version>0.61</m:dependency.management__com.typesafe.akka__akka-persistence-cassandra-launcher_2.11__version>
+		<m:dependency.management__com.typesafe.netty__netty-reactive-streams__version>2.0.0</m:dependency.management__com.typesafe.netty__netty-reactive-streams__version>
+		<m:dependency.management__com.typesafe.netty__netty-reactive-streams-http__version>2.0.0</m:dependency.management__com.typesafe.netty__netty-reactive-streams-http__version>
+		<m:dependency.management__com.typesafe.play__cachecontrol_2.12__version>1.1.3</m:dependency.management__com.typesafe.play__cachecontrol_2.12__version>
+		<m:dependency.management__com.typesafe.play__cachecontrol_2.11__version>1.1.3</m:dependency.management__com.typesafe.play__cachecontrol_2.11__version>
+		<m:dependency.management__com.typesafe.play__play-json_2.12__version>2.6.10</m:dependency.management__com.typesafe.play__play-json_2.12__version>
+		<m:dependency.management__com.typesafe.play__play-json_2.11__version>2.6.10</m:dependency.management__com.typesafe.play__play-json_2.11__version>
+		<m:dependency.management__com.typesafe.play__play-functional_2.12__version>2.6.10</m:dependency.management__com.typesafe.play__play-functional_2.12__version>
+		<m:dependency.management__com.typesafe.play__play-functional_2.11__version>2.6.10</m:dependency.management__com.typesafe.play__play-functional_2.11__version>
+		<m:dependency.management__com.typesafe.play__play-ws_2.12__version>2.6.20</m:dependency.management__com.typesafe.play__play-ws_2.12__version>
+		<m:dependency.management__com.typesafe.play__play-ws_2.11__version>2.6.20</m:dependency.management__com.typesafe.play__play-ws_2.11__version>
+		<m:dependency.management__com.typesafe.play__play-ahc-ws_2.12__version>2.6.20</m:dependency.management__com.typesafe.play__play-ahc-ws_2.12__version>
+		<m:dependency.management__com.typesafe.play__play-ahc-ws_2.11__version>2.6.20</m:dependency.management__com.typesafe.play__play-ahc-ws_2.11__version>
+		<m:dependency.management__com.typesafe.play__play-ws-standalone_2.12__version>1.1.10</m:dependency.management__com.typesafe.play__play-ws-standalone_2.12__version>
+		<m:dependency.management__com.typesafe.play__play-ws-standalone_2.11__version>1.1.10</m:dependency.management__com.typesafe.play__play-ws-standalone_2.11__version>
+		<m:dependency.management__com.typesafe.play__play-ws-standalone-xml_2.12__version>1.1.10</m:dependency.management__com.typesafe.play__play-ws-standalone-xml_2.12__version>
+		<m:dependency.management__com.typesafe.play__play-ws-standalone-xml_2.11__version>1.1.10</m:dependency.management__com.typesafe.play__play-ws-standalone-xml_2.11__version>
+		<m:dependency.management__com.typesafe.play__play-ws-standalone-json_2.12__version>1.1.10</m:dependency.management__com.typesafe.play__play-ws-standalone-json_2.12__version>
+		<m:dependency.management__com.typesafe.play__play-ws-standalone-json_2.11__version>1.1.10</m:dependency.management__com.typesafe.play__play-ws-standalone-json_2.11__version>
+		<m:dependency.management__com.typesafe.play__play-ahc-ws-standalone_2.12__version>1.1.10</m:dependency.management__com.typesafe.play__play-ahc-ws-standalone_2.12__version>
+		<m:dependency.management__com.typesafe.play__play-ahc-ws-standalone_2.11__version>1.1.10</m:dependency.management__com.typesafe.play__play-ahc-ws-standalone_2.11__version>
+		<m:dependency.management__com.typesafe.play__shaded-asynchttpclient__version>1.1.10</m:dependency.management__com.typesafe.play__shaded-asynchttpclient__version>
+		<m:dependency.management__com.typesafe.play__shaded-oauth__version>1.1.10</m:dependency.management__com.typesafe.play__shaded-oauth__version>
+		<m:dependency.management__com.typesafe.play__twirl-api_2.12__version>1.3.15</m:dependency.management__com.typesafe.play__twirl-api_2.12__version>
+		<m:dependency.management__com.typesafe.play__twirl-api_2.11__version>1.3.15</m:dependency.management__com.typesafe.play__twirl-api_2.11__version>
+		<m:dependency.management__com.typesafe.slick__slick_2.12__version>3.2.3</m:dependency.management__com.typesafe.slick__slick_2.12__version>
+		<m:dependency.management__com.typesafe.slick__slick_2.11__version>3.2.3</m:dependency.management__com.typesafe.slick__slick_2.11__version>
+		<m:dependency.management__com.typesafe.slick__slick-hikaricp_2.12__version>3.2.3</m:dependency.management__com.typesafe.slick__slick-hikaricp_2.12__version>
+		<m:dependency.management__com.typesafe.slick__slick-hikaricp_2.11__version>3.2.3</m:dependency.management__com.typesafe.slick__slick-hikaricp_2.11__version>
+		<m:dependency.management__com.zaxxer__HikariCP__version>2.7.9</m:dependency.management__com.zaxxer__HikariCP__version>
+		<m:dependency.management__commons-codec__commons-codec__version>1.10</m:dependency.management__commons-codec__commons-codec__version>
+		<m:dependency.management__io.aeron__aeron-client__version>1.11.2</m:dependency.management__io.aeron__aeron-client__version>
+		<m:dependency.management__io.aeron__aeron-driver__version>1.11.2</m:dependency.management__io.aeron__aeron-driver__version>
+		<m:dependency.management__io.dropwizard.metrics__metrics-core__version>3.2.2</m:dependency.management__io.dropwizard.metrics__metrics-core__version>
+		<m:dependency.management__io.jsonwebtoken__jjwt__version>0.7.0</m:dependency.management__io.jsonwebtoken__jjwt__version>
+		<m:dependency.management__io.netty__netty__version>3.10.6.Final</m:dependency.management__io.netty__netty__version>
+		<m:dependency.management__javax.cache__cache-api__version>1.0.0</m:dependency.management__javax.cache__cache-api__version>
+		<m:dependency.management__javax.inject__javax.inject__version>1</m:dependency.management__javax.inject__javax.inject__version>
+		<m:dependency.management__javax.transaction__jta__version>1.1</m:dependency.management__javax.transaction__jta__version>
+		<m:dependency.management__joda-time__joda-time__version>2.9.9</m:dependency.management__joda-time__joda-time__version>
+		<m:dependency.management__junit__junit__version>4.11</m:dependency.management__junit__junit__version>
+		<m:dependency.management__net.jodah__typetools__version>0.5.0</m:dependency.management__net.jodah__typetools__version>
+		<m:dependency.management__net.jpountz.lz4__lz4__version>1.3.0</m:dependency.management__net.jpountz.lz4__lz4__version>
+		<m:dependency.management__org.agrona__agrona__version>0.9.25</m:dependency.management__org.agrona__agrona__version>
+		<m:dependency.management__org.apache.commons__commons-lang3__version>3.6</m:dependency.management__org.apache.commons__commons-lang3__version>
+		<m:dependency.management__org.apache.kafka__kafka-clients__version>0.11.0.1</m:dependency.management__org.apache.kafka__kafka-clients__version>
+		<m:dependency.management__org.codehaus.mojo__animal-sniffer-annotations__version>1.14</m:dependency.management__org.codehaus.mojo__animal-sniffer-annotations__version>
+		<m:dependency.management__org.hibernate__hibernate-validator__version>5.2.4.Final</m:dependency.management__org.hibernate__hibernate-validator__version>
+		<m:dependency.management__org.hibernate.javax.persistence__hibernate-jpa-2.1-api__version>1.0.0.Final</m:dependency.management__org.hibernate.javax.persistence__hibernate-jpa-2.1-api__version>
+		<m:dependency.management__org.immutables__value__version>2.3.2</m:dependency.management__org.immutables__value__version>
+		<m:dependency.management__org.javassist__javassist__version>3.21.0-GA</m:dependency.management__org.javassist__javassist__version>
+		<m:dependency.management__org.joda__joda-convert__version>1.9.2</m:dependency.management__org.joda__joda-convert__version>
+		<m:dependency.management__org.hamcrest__hamcrest-core__version>1.3</m:dependency.management__org.hamcrest__hamcrest-core__version>
+		<m:dependency.management__org.lmdbjava__lmdbjava__version>0.6.1</m:dependency.management__org.lmdbjava__lmdbjava__version>
+		<m:dependency.management__org.pcollections__pcollections__version>2.1.2</m:dependency.management__org.pcollections__pcollections__version>
+		<m:dependency.management__org.reactivestreams__reactive-streams__version>1.0.2</m:dependency.management__org.reactivestreams__reactive-streams__version>
+		<m:dependency.management__org.reflections__reflections__version>0.9.11</m:dependency.management__org.reflections__reflections__version>
+		<m:dependency.management__org.scalactic__scalactic_2.12__version>3.0.4</m:dependency.management__org.scalactic__scalactic_2.12__version>
+		<m:dependency.management__org.scalactic__scalactic_2.11__version>3.0.4</m:dependency.management__org.scalactic__scalactic_2.11__version>
+		<m:dependency.management__org.scalatest__scalatest_2.12__version>3.0.4</m:dependency.management__org.scalatest__scalatest_2.12__version>
+		<m:dependency.management__org.scalatest__scalatest_2.11__version>3.0.4</m:dependency.management__org.scalatest__scalatest_2.11__version>
+		<m:dependency.management__org.scala-sbt__test-interface__version>1.0</m:dependency.management__org.scala-sbt__test-interface__version>
+		<m:dependency.management__org.typelevel__macro-compat_2.12__version>1.1.1</m:dependency.management__org.typelevel__macro-compat_2.12__version>
+		<m:dependency.management__org.typelevel__macro-compat_2.11__version>1.1.1</m:dependency.management__org.typelevel__macro-compat_2.11__version>
+		<m:dependency.management__org.xerial.snappy__snappy-java__version>1.1.2.6</m:dependency.management__org.xerial.snappy__snappy-java__version>
+		<m:dependency.management__tyrex__tyrex__version>1.0.1</m:dependency.management__tyrex__tyrex__version>
+		<m:dependency.management__com.fasterxml.jackson.core__jackson-annotations__version>2.8.11</m:dependency.management__com.fasterxml.jackson.core__jackson-annotations__version>
+		<m:dependency.management__com.fasterxml.jackson.core__jackson-core__version>2.8.11</m:dependency.management__com.fasterxml.jackson.core__jackson-core__version>
+		<m:dependency.management__com.fasterxml.jackson.core__jackson-databind__version>2.8.11.1</m:dependency.management__com.fasterxml.jackson.core__jackson-databind__version>
+		<m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-jdk8__version>2.8.11</m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-jdk8__version>
+		<m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-jsr310__version>2.8.11</m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-jsr310__version>
+		<m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-guava__version>2.8.11</m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-guava__version>
+		<m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-pcollections__version>2.8.11</m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-pcollections__version>
+		<m:dependency.management__com.typesafe.akka__akka-actor_2.12__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-actor_2.12__version>
+		<m:dependency.management__com.typesafe.akka__akka-actor_2.11__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-actor_2.11__version>
+		<m:dependency.management__com.typesafe.akka__akka-cluster_2.12__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-cluster_2.12__version>
+		<m:dependency.management__com.typesafe.akka__akka-cluster_2.11__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-cluster_2.11__version>
+		<m:dependency.management__com.typesafe.akka__akka-cluster-sharding_2.12__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-cluster-sharding_2.12__version>
+		<m:dependency.management__com.typesafe.akka__akka-cluster-sharding_2.11__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-cluster-sharding_2.11__version>
+		<m:dependency.management__com.typesafe.akka__akka-cluster-tools_2.12__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-cluster-tools_2.12__version>
+		<m:dependency.management__com.typesafe.akka__akka-cluster-tools_2.11__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-cluster-tools_2.11__version>
+		<m:dependency.management__com.typesafe.akka__akka-distributed-data_2.12__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-distributed-data_2.12__version>
+		<m:dependency.management__com.typesafe.akka__akka-distributed-data_2.11__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-distributed-data_2.11__version>
+		<m:dependency.management__com.typesafe.akka__akka-multi-node-testkit_2.12__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-multi-node-testkit_2.12__version>
+		<m:dependency.management__com.typesafe.akka__akka-multi-node-testkit_2.11__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-multi-node-testkit_2.11__version>
+		<m:dependency.management__com.typesafe.akka__akka-persistence_2.12__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-persistence_2.12__version>
+		<m:dependency.management__com.typesafe.akka__akka-persistence_2.11__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-persistence_2.11__version>
+		<m:dependency.management__com.typesafe.akka__akka-persistence-query_2.12__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-persistence-query_2.12__version>
+		<m:dependency.management__com.typesafe.akka__akka-persistence-query_2.11__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-persistence-query_2.11__version>
+		<m:dependency.management__com.typesafe.akka__akka-protobuf_2.12__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-protobuf_2.12__version>
+		<m:dependency.management__com.typesafe.akka__akka-protobuf_2.11__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-protobuf_2.11__version>
+		<m:dependency.management__com.typesafe.akka__akka-remote_2.12__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-remote_2.12__version>
+		<m:dependency.management__com.typesafe.akka__akka-remote_2.11__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-remote_2.11__version>
+		<m:dependency.management__com.typesafe.akka__akka-slf4j_2.12__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-slf4j_2.12__version>
+		<m:dependency.management__com.typesafe.akka__akka-slf4j_2.11__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-slf4j_2.11__version>
+		<m:dependency.management__com.typesafe.akka__akka-stream_2.12__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-stream_2.12__version>
+		<m:dependency.management__com.typesafe.akka__akka-stream_2.11__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-stream_2.11__version>
+		<m:dependency.management__com.typesafe.akka__akka-stream-testkit_2.12__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-stream-testkit_2.12__version>
+		<m:dependency.management__com.typesafe.akka__akka-stream-testkit_2.11__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-stream-testkit_2.11__version>
+		<m:dependency.management__com.typesafe.akka__akka-testkit_2.12__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-testkit_2.12__version>
+		<m:dependency.management__com.typesafe.akka__akka-testkit_2.11__version>2.5.18</m:dependency.management__com.typesafe.akka__akka-testkit_2.11__version>
+		<m:dependency.management__com.typesafe.play__build-link__version>2.6.20</m:dependency.management__com.typesafe.play__build-link__version>
+		<m:dependency.management__com.typesafe.play__play-exceptions__version>2.6.20</m:dependency.management__com.typesafe.play__play-exceptions__version>
+		<m:dependency.management__com.typesafe.play__play-netty-utils__version>2.6.20</m:dependency.management__com.typesafe.play__play-netty-utils__version>
+		<m:dependency.management__com.typesafe.play__play_2.12__version>2.6.20</m:dependency.management__com.typesafe.play__play_2.12__version>
+		<m:dependency.management__com.typesafe.play__play_2.11__version>2.6.20</m:dependency.management__com.typesafe.play__play_2.11__version>
+		<m:dependency.management__com.typesafe.play__play-guice_2.12__version>2.6.20</m:dependency.management__com.typesafe.play__play-guice_2.12__version>
+		<m:dependency.management__com.typesafe.play__play-guice_2.11__version>2.6.20</m:dependency.management__com.typesafe.play__play-guice_2.11__version>
+		<m:dependency.management__com.typesafe.play__play-java_2.12__version>2.6.20</m:dependency.management__com.typesafe.play__play-java_2.12__version>
+		<m:dependency.management__com.typesafe.play__play-java_2.11__version>2.6.20</m:dependency.management__com.typesafe.play__play-java_2.11__version>
+		<m:dependency.management__com.typesafe.play__play-jdbc_2.12__version>2.6.20</m:dependency.management__com.typesafe.play__play-jdbc_2.12__version>
+		<m:dependency.management__com.typesafe.play__play-jdbc_2.11__version>2.6.20</m:dependency.management__com.typesafe.play__play-jdbc_2.11__version>
+		<m:dependency.management__com.typesafe.play__play-jdbc-api_2.12__version>2.6.20</m:dependency.management__com.typesafe.play__play-jdbc-api_2.12__version>
+		<m:dependency.management__com.typesafe.play__play-jdbc-api_2.11__version>2.6.20</m:dependency.management__com.typesafe.play__play-jdbc-api_2.11__version>
+		<m:dependency.management__com.typesafe.play__play-netty-server_2.12__version>2.6.20</m:dependency.management__com.typesafe.play__play-netty-server_2.12__version>
+		<m:dependency.management__com.typesafe.play__play-netty-server_2.11__version>2.6.20</m:dependency.management__com.typesafe.play__play-netty-server_2.11__version>
+		<m:dependency.management__com.typesafe.play__play-akka-http-server_2.12__version>2.6.20</m:dependency.management__com.typesafe.play__play-akka-http-server_2.12__version>
+		<m:dependency.management__com.typesafe.play__play-akka-http-server_2.11__version>2.6.20</m:dependency.management__com.typesafe.play__play-akka-http-server_2.11__version>
+		<m:dependency.management__com.typesafe.play__play-server_2.12__version>2.6.20</m:dependency.management__com.typesafe.play__play-server_2.12__version>
+		<m:dependency.management__com.typesafe.play__play-server_2.11__version>2.6.20</m:dependency.management__com.typesafe.play__play-server_2.11__version>
+		<m:dependency.management__com.typesafe.play__play-streams_2.12__version>2.6.20</m:dependency.management__com.typesafe.play__play-streams_2.12__version>
+		<m:dependency.management__com.typesafe.play__play-streams_2.11__version>2.6.20</m:dependency.management__com.typesafe.play__play-streams_2.11__version>
+		<m:dependency.management__ch.qos.logback__logback-classic__version>1.2.3</m:dependency.management__ch.qos.logback__logback-classic__version>
+		<m:dependency.management__ch.qos.logback__logback-core__version>1.2.3</m:dependency.management__ch.qos.logback__logback-core__version>
+		<m:dependency.management__io.netty__netty-buffer__version>4.1.29.Final</m:dependency.management__io.netty__netty-buffer__version>
+		<m:dependency.management__io.netty__netty-codec__version>4.1.29.Final</m:dependency.management__io.netty__netty-codec__version>
+		<m:dependency.management__io.netty__netty-codec-http__version>4.1.29.Final</m:dependency.management__io.netty__netty-codec-http__version>
+		<m:dependency.management__io.netty__netty-common__version>4.1.29.Final</m:dependency.management__io.netty__netty-common__version>
+		<m:dependency.management__io.netty__netty-handler__version>4.1.29.Final</m:dependency.management__io.netty__netty-handler__version>
+		<m:dependency.management__io.netty__netty-resolver__version>4.1.29.Final</m:dependency.management__io.netty__netty-resolver__version>
+		<m:dependency.management__io.netty__netty-transport__version>4.1.29.Final</m:dependency.management__io.netty__netty-transport__version>
+		<m:dependency.management__io.netty__netty-transport-native-epoll__version>4.1.29.Final</m:dependency.management__io.netty__netty-transport-native-epoll__version>
+		<m:dependency.management__io.netty__netty-transport-native-unix-common__version>4.1.29.Final</m:dependency.management__io.netty__netty-transport-native-unix-common__version>
+		<m:dependency.management__org.apache.logging.log4j__log4j-api__version>2.10.0</m:dependency.management__org.apache.logging.log4j__log4j-api__version>
+		<m:dependency.management__org.apache.logging.log4j__log4j-core__version>2.10.0</m:dependency.management__org.apache.logging.log4j__log4j-core__version>
+		<m:dependency.management__org.apache.logging.log4j__log4j-slf4j-impl__version>2.10.0</m:dependency.management__org.apache.logging.log4j__log4j-slf4j-impl__version>
+		<m:dependency.management__org.ow2.asm__asm__version>5.0.3</m:dependency.management__org.ow2.asm__asm__version>
+		<m:dependency.management__org.ow2.asm__asm-analysis__version>5.0.3</m:dependency.management__org.ow2.asm__asm-analysis__version>
+		<m:dependency.management__org.ow2.asm__asm-commons__version>5.0.3</m:dependency.management__org.ow2.asm__asm-commons__version>
+		<m:dependency.management__org.ow2.asm__asm-tree__version>5.0.3</m:dependency.management__org.ow2.asm__asm-tree__version>
+		<m:dependency.management__org.ow2.asm__asm-util__version>5.0.3</m:dependency.management__org.ow2.asm__asm-util__version>
+		<m:dependency.management__org.slf4j__jcl-over-slf4j__version>1.7.25</m:dependency.management__org.slf4j__jcl-over-slf4j__version>
+		<m:dependency.management__org.slf4j__jul-to-slf4j__version>1.7.25</m:dependency.management__org.slf4j__jul-to-slf4j__version>
+		<m:dependency.management__org.slf4j__log4j-over-slf4j__version>1.7.25</m:dependency.management__org.slf4j__log4j-over-slf4j__version>
+		<m:dependency.management__org.slf4j__slf4j-api__version>1.7.25</m:dependency.management__org.slf4j__slf4j-api__version>
+		<m:dependency.management__org.slf4j__slf4j-nop__version>1.7.25</m:dependency.management__org.slf4j__slf4j-nop__version>
+		<m:dependency.management__org.slf4j__slf4j-log4j12__version>1.7.25</m:dependency.management__org.slf4j__slf4j-log4j12__version>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="public" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+		<artifact name="lagom-service-locator_2.12" type="jar" ext="jar" conf="master"/>
+		<artifact name="lagom-service-locator_2.12" type="source" ext="jar" conf="sources" m:classifier="sources"/>
+		<artifact name="lagom-service-locator_2.12" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.12.7" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="com.lightbend.lagom" name="lagom-javadsl-server_2.12" rev="1.4.9" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="com.lightbend.lagom" name="lagom-logback_2.12" rev="1.4.9" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="com.lightbend.lagom" name="lagom-service-registry-client_2.12" rev="1.4.9" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="com.typesafe.play" name="play-akka-http-server_2.12" rev="2.6.20" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)">
+			<exclude org="org.slf4j" module="jcl-over-slf4j" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.slf4j" module="jul-to-slf4j" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.slf4j" module="log4j-over-slf4j" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.slf4j" module="slf4j-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="com.typesafe.akka" name="akka-http-core_2.12" rev="10.0.14" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.4" force="true" conf="test->runtime(*),master(*)">
+			<exclude org="org.slf4j" module="jcl-over-slf4j" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.slf4j" module="jul-to-slf4j" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.slf4j" module="log4j-over-slf4j" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.slf4j" module="slf4j-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-api_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-api_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-server_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-server_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-client_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-client_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-broker_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-broker_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-kafka-client_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-kafka-client_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-kafka-broker_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-kafka-broker_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-cluster_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-cluster_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-persistence_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-persistence_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-persistence-cassandra_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-persistence-cassandra_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-persistence-jdbc_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-persistence-jdbc_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-persistence-jpa_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-persistence-jpa_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-pubsub_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-pubsub_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-jackson_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-jackson_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-testkit_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-testkit_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-immutables_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-immutables_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-integration-client_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-javadsl-integration-client_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="api-tools_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="api-tools_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-api_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-api_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-client_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-client_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-server_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-server_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-spi_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-spi_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-cluster-core_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-cluster-core_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-kafka-client_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-kafka-client_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-kafka-broker_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-kafka-broker_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-persistence-core_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-persistence-core_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-persistence-cassandra-core_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-persistence-cassandra-core_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-persistence-jdbc-core_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-persistence-jdbc-core_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-core-testkit_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-core-testkit_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-logback_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-logback_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-log4j2_2.12" matcher="exact" rev="1.4.9"/>
+		<override org="com.lightbend.lagom" module="lagom-log4j2_2.11" matcher="exact" rev="1.4.9"/>
+		<override org="aopalliance" module="aopalliance" matcher="exact" rev="1.0"/>
+		<override org="com.datastax.cassandra" module="cassandra-driver-core" matcher="exact" rev="3.2.0"/>
+		<override org="com.fasterxml.jackson.module" module="jackson-module-parameter-names" matcher="exact" rev="2.8.11"/>
+		<override org="com.github.dnvriend" module="akka-persistence-jdbc_2.12" matcher="exact" rev="3.4.0"/>
+		<override org="com.github.dnvriend" module="akka-persistence-jdbc_2.11" matcher="exact" rev="3.4.0"/>
+		<override org="com.github.jnr" module="jffi" matcher="exact" rev="1.2.16"/>
+		<override org="com.github.jnr" module="jnr-constants" matcher="exact" rev="0.9.9"/>
+		<override org="com.github.jnr" module="jnr-ffi" matcher="exact" rev="2.1.7"/>
+		<override org="com.github.jnr" module="jnr-posix" matcher="exact" rev="3.0.27"/>
+		<override org="com.github.jnr" module="jnr-x86asm" matcher="exact" rev="1.0.2"/>
+		<override org="com.google.code.findbugs" module="jsr305" matcher="exact" rev="1.3.9"/>
+		<override org="com.google.errorprone" module="error_prone_annotations" matcher="exact" rev="2.0.18"/>
+		<override org="com.google.guava" module="guava" matcher="exact" rev="22.0"/>
+		<override org="com.google.j2objc" module="j2objc-annotations" matcher="exact" rev="1.1"/>
+		<override org="com.google.inject" module="guice" matcher="exact" rev="4.1.0"/>
+		<override org="com.google.inject.extensions" module="guice-assistedinject" matcher="exact" rev="4.1.0"/>
+		<override org="com.googlecode.usc" module="jdbcdslog" matcher="exact" rev="1.0.6.2"/>
+		<override org="javax.xml.bind" module="jaxb-api" matcher="exact" rev="2.3.0"/>
+		<override org="com.h2database" module="h2" matcher="exact" rev="1.4.192"/>
+		<override org="com.jolbox" module="bonecp" matcher="exact" rev="0.8.0.RELEASE"/>
+		<override org="com.lmax" module="disruptor" matcher="exact" rev="3.3.6"/>
+		<override org="com.novocode" module="junit-interface" matcher="exact" rev="0.11"/>
+		<override org="com.typesafe" module="config" matcher="exact" rev="1.3.3"/>
+		<override org="com.typesafe" module="ssl-config-core_2.12" matcher="exact" rev="0.3.6"/>
+		<override org="com.typesafe" module="ssl-config-core_2.11" matcher="exact" rev="0.3.6"/>
+		<override org="com.typesafe.akka" module="akka-http-core_2.12" matcher="exact" rev="10.0.14"/>
+		<override org="com.typesafe.akka" module="akka-http-core_2.11" matcher="exact" rev="10.0.14"/>
+		<override org="com.typesafe.akka" module="akka-stream-kafka_2.12" matcher="exact" rev="0.18"/>
+		<override org="com.typesafe.akka" module="akka-stream-kafka_2.11" matcher="exact" rev="0.18"/>
+		<override org="com.typesafe.akka" module="akka-parsing_2.12" matcher="exact" rev="10.0.14"/>
+		<override org="com.typesafe.akka" module="akka-parsing_2.11" matcher="exact" rev="10.0.14"/>
+		<override org="com.typesafe.akka" module="akka-persistence-cassandra_2.12" matcher="exact" rev="0.61"/>
+		<override org="com.typesafe.akka" module="akka-persistence-cassandra_2.11" matcher="exact" rev="0.61"/>
+		<override org="com.typesafe.akka" module="akka-persistence-cassandra-launcher_2.12" matcher="exact" rev="0.61"/>
+		<override org="com.typesafe.akka" module="akka-persistence-cassandra-launcher_2.11" matcher="exact" rev="0.61"/>
+		<override org="com.typesafe.netty" module="netty-reactive-streams" matcher="exact" rev="2.0.0"/>
+		<override org="com.typesafe.netty" module="netty-reactive-streams-http" matcher="exact" rev="2.0.0"/>
+		<override org="com.typesafe.play" module="cachecontrol_2.12" matcher="exact" rev="1.1.3"/>
+		<override org="com.typesafe.play" module="cachecontrol_2.11" matcher="exact" rev="1.1.3"/>
+		<override org="com.typesafe.play" module="play-json_2.12" matcher="exact" rev="2.6.10"/>
+		<override org="com.typesafe.play" module="play-json_2.11" matcher="exact" rev="2.6.10"/>
+		<override org="com.typesafe.play" module="play-functional_2.12" matcher="exact" rev="2.6.10"/>
+		<override org="com.typesafe.play" module="play-functional_2.11" matcher="exact" rev="2.6.10"/>
+		<override org="com.typesafe.play" module="play-ws_2.12" matcher="exact" rev="2.6.20"/>
+		<override org="com.typesafe.play" module="play-ws_2.11" matcher="exact" rev="2.6.20"/>
+		<override org="com.typesafe.play" module="play-ahc-ws_2.12" matcher="exact" rev="2.6.20"/>
+		<override org="com.typesafe.play" module="play-ahc-ws_2.11" matcher="exact" rev="2.6.20"/>
+		<override org="com.typesafe.play" module="play-ws-standalone_2.12" matcher="exact" rev="1.1.10"/>
+		<override org="com.typesafe.play" module="play-ws-standalone_2.11" matcher="exact" rev="1.1.10"/>
+		<override org="com.typesafe.play" module="play-ws-standalone-xml_2.12" matcher="exact" rev="1.1.10"/>
+		<override org="com.typesafe.play" module="play-ws-standalone-xml_2.11" matcher="exact" rev="1.1.10"/>
+		<override org="com.typesafe.play" module="play-ws-standalone-json_2.12" matcher="exact" rev="1.1.10"/>
+		<override org="com.typesafe.play" module="play-ws-standalone-json_2.11" matcher="exact" rev="1.1.10"/>
+		<override org="com.typesafe.play" module="play-ahc-ws-standalone_2.12" matcher="exact" rev="1.1.10"/>
+		<override org="com.typesafe.play" module="play-ahc-ws-standalone_2.11" matcher="exact" rev="1.1.10"/>
+		<override org="com.typesafe.play" module="shaded-asynchttpclient" matcher="exact" rev="1.1.10"/>
+		<override org="com.typesafe.play" module="shaded-oauth" matcher="exact" rev="1.1.10"/>
+		<override org="com.typesafe.play" module="twirl-api_2.12" matcher="exact" rev="1.3.15"/>
+		<override org="com.typesafe.play" module="twirl-api_2.11" matcher="exact" rev="1.3.15"/>
+		<override org="com.typesafe.slick" module="slick_2.12" matcher="exact" rev="3.2.3"/>
+		<override org="com.typesafe.slick" module="slick_2.11" matcher="exact" rev="3.2.3"/>
+		<override org="com.typesafe.slick" module="slick-hikaricp_2.12" matcher="exact" rev="3.2.3"/>
+		<override org="com.typesafe.slick" module="slick-hikaricp_2.11" matcher="exact" rev="3.2.3"/>
+		<override org="com.zaxxer" module="HikariCP" matcher="exact" rev="2.7.9"/>
+		<override org="commons-codec" module="commons-codec" matcher="exact" rev="1.10"/>
+		<override org="io.aeron" module="aeron-client" matcher="exact" rev="1.11.2"/>
+		<override org="io.aeron" module="aeron-driver" matcher="exact" rev="1.11.2"/>
+		<override org="io.dropwizard.metrics" module="metrics-core" matcher="exact" rev="3.2.2"/>
+		<override org="io.jsonwebtoken" module="jjwt" matcher="exact" rev="0.7.0"/>
+		<override org="io.netty" module="netty" matcher="exact" rev="3.10.6.Final"/>
+		<override org="javax.cache" module="cache-api" matcher="exact" rev="1.0.0"/>
+		<override org="javax.inject" module="javax.inject" matcher="exact" rev="1"/>
+		<override org="javax.transaction" module="jta" matcher="exact" rev="1.1"/>
+		<override org="joda-time" module="joda-time" matcher="exact" rev="2.9.9"/>
+		<override org="junit" module="junit" matcher="exact" rev="4.11"/>
+		<override org="net.jodah" module="typetools" matcher="exact" rev="0.5.0"/>
+		<override org="net.jpountz.lz4" module="lz4" matcher="exact" rev="1.3.0"/>
+		<override org="org.agrona" module="agrona" matcher="exact" rev="0.9.25"/>
+		<override org="org.apache.commons" module="commons-lang3" matcher="exact" rev="3.6"/>
+		<override org="org.apache.kafka" module="kafka-clients" matcher="exact" rev="0.11.0.1"/>
+		<override org="org.codehaus.mojo" module="animal-sniffer-annotations" matcher="exact" rev="1.14"/>
+		<override org="org.hibernate" module="hibernate-validator" matcher="exact" rev="5.2.4.Final"/>
+		<override org="org.hibernate.javax.persistence" module="hibernate-jpa-2.1-api" matcher="exact" rev="1.0.0.Final"/>
+		<override org="org.immutables" module="value" matcher="exact" rev="2.3.2"/>
+		<override org="org.javassist" module="javassist" matcher="exact" rev="3.21.0-GA"/>
+		<override org="org.joda" module="joda-convert" matcher="exact" rev="1.9.2"/>
+		<override org="org.hamcrest" module="hamcrest-core" matcher="exact" rev="1.3"/>
+		<override org="org.lmdbjava" module="lmdbjava" matcher="exact" rev="0.6.1"/>
+		<override org="org.pcollections" module="pcollections" matcher="exact" rev="2.1.2"/>
+		<override org="org.reactivestreams" module="reactive-streams" matcher="exact" rev="1.0.2"/>
+		<override org="org.reflections" module="reflections" matcher="exact" rev="0.9.11"/>
+		<override org="org.scalactic" module="scalactic_2.12" matcher="exact" rev="3.0.4"/>
+		<override org="org.scalactic" module="scalactic_2.11" matcher="exact" rev="3.0.4"/>
+		<override org="org.scalatest" module="scalatest_2.12" matcher="exact" rev="3.0.4"/>
+		<override org="org.scalatest" module="scalatest_2.11" matcher="exact" rev="3.0.4"/>
+		<override org="org.scala-sbt" module="test-interface" matcher="exact" rev="1.0"/>
+		<override org="org.typelevel" module="macro-compat_2.12" matcher="exact" rev="1.1.1"/>
+		<override org="org.typelevel" module="macro-compat_2.11" matcher="exact" rev="1.1.1"/>
+		<override org="org.xerial.snappy" module="snappy-java" matcher="exact" rev="1.1.2.6"/>
+		<override org="tyrex" module="tyrex" matcher="exact" rev="1.0.1"/>
+		<override org="com.fasterxml.jackson.core" module="jackson-annotations" matcher="exact" rev="2.8.11"/>
+		<override org="com.fasterxml.jackson.core" module="jackson-core" matcher="exact" rev="2.8.11"/>
+		<override org="com.fasterxml.jackson.core" module="jackson-databind" matcher="exact" rev="2.8.11.1"/>
+		<override org="com.fasterxml.jackson.datatype" module="jackson-datatype-jdk8" matcher="exact" rev="2.8.11"/>
+		<override org="com.fasterxml.jackson.datatype" module="jackson-datatype-jsr310" matcher="exact" rev="2.8.11"/>
+		<override org="com.fasterxml.jackson.datatype" module="jackson-datatype-guava" matcher="exact" rev="2.8.11"/>
+		<override org="com.fasterxml.jackson.datatype" module="jackson-datatype-pcollections" matcher="exact" rev="2.8.11"/>
+		<override org="com.typesafe.akka" module="akka-actor_2.12" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-actor_2.11" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-cluster_2.12" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-cluster_2.11" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-cluster-sharding_2.12" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-cluster-sharding_2.11" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-cluster-tools_2.12" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-cluster-tools_2.11" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-distributed-data_2.12" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-distributed-data_2.11" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-multi-node-testkit_2.12" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-multi-node-testkit_2.11" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-persistence_2.12" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-persistence_2.11" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-persistence-query_2.12" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-persistence-query_2.11" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-protobuf_2.12" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-protobuf_2.11" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-remote_2.12" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-remote_2.11" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-slf4j_2.12" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-slf4j_2.11" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-stream_2.12" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-stream_2.11" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-stream-testkit_2.12" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-stream-testkit_2.11" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-testkit_2.12" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.akka" module="akka-testkit_2.11" matcher="exact" rev="2.5.18"/>
+		<override org="com.typesafe.play" module="build-link" matcher="exact" rev="2.6.20"/>
+		<override org="com.typesafe.play" module="play-exceptions" matcher="exact" rev="2.6.20"/>
+		<override org="com.typesafe.play" module="play-netty-utils" matcher="exact" rev="2.6.20"/>
+		<override org="com.typesafe.play" module="play_2.12" matcher="exact" rev="2.6.20"/>
+		<override org="com.typesafe.play" module="play_2.11" matcher="exact" rev="2.6.20"/>
+		<override org="com.typesafe.play" module="play-guice_2.12" matcher="exact" rev="2.6.20"/>
+		<override org="com.typesafe.play" module="play-guice_2.11" matcher="exact" rev="2.6.20"/>
+		<override org="com.typesafe.play" module="play-java_2.12" matcher="exact" rev="2.6.20"/>
+		<override org="com.typesafe.play" module="play-java_2.11" matcher="exact" rev="2.6.20"/>
+		<override org="com.typesafe.play" module="play-jdbc_2.12" matcher="exact" rev="2.6.20"/>
+		<override org="com.typesafe.play" module="play-jdbc_2.11" matcher="exact" rev="2.6.20"/>
+		<override org="com.typesafe.play" module="play-jdbc-api_2.12" matcher="exact" rev="2.6.20"/>
+		<override org="com.typesafe.play" module="play-jdbc-api_2.11" matcher="exact" rev="2.6.20"/>
+		<override org="com.typesafe.play" module="play-netty-server_2.12" matcher="exact" rev="2.6.20"/>
+		<override org="com.typesafe.play" module="play-netty-server_2.11" matcher="exact" rev="2.6.20"/>
+		<override org="com.typesafe.play" module="play-akka-http-server_2.12" matcher="exact" rev="2.6.20"/>
+		<override org="com.typesafe.play" module="play-akka-http-server_2.11" matcher="exact" rev="2.6.20"/>
+		<override org="com.typesafe.play" module="play-server_2.12" matcher="exact" rev="2.6.20"/>
+		<override org="com.typesafe.play" module="play-server_2.11" matcher="exact" rev="2.6.20"/>
+		<override org="com.typesafe.play" module="play-streams_2.12" matcher="exact" rev="2.6.20"/>
+		<override org="com.typesafe.play" module="play-streams_2.11" matcher="exact" rev="2.6.20"/>
+		<override org="ch.qos.logback" module="logback-classic" matcher="exact" rev="1.2.3"/>
+		<override org="ch.qos.logback" module="logback-core" matcher="exact" rev="1.2.3"/>
+		<override org="io.netty" module="netty-buffer" matcher="exact" rev="4.1.29.Final"/>
+		<override org="io.netty" module="netty-codec" matcher="exact" rev="4.1.29.Final"/>
+		<override org="io.netty" module="netty-codec-http" matcher="exact" rev="4.1.29.Final"/>
+		<override org="io.netty" module="netty-common" matcher="exact" rev="4.1.29.Final"/>
+		<override org="io.netty" module="netty-handler" matcher="exact" rev="4.1.29.Final"/>
+		<override org="io.netty" module="netty-resolver" matcher="exact" rev="4.1.29.Final"/>
+		<override org="io.netty" module="netty-transport" matcher="exact" rev="4.1.29.Final"/>
+		<override org="io.netty" module="netty-transport-native-epoll" matcher="exact" rev="4.1.29.Final"/>
+		<override org="io.netty" module="netty-transport-native-unix-common" matcher="exact" rev="4.1.29.Final"/>
+		<override org="org.apache.logging.log4j" module="log4j-api" matcher="exact" rev="2.10.0"/>
+		<override org="org.apache.logging.log4j" module="log4j-core" matcher="exact" rev="2.10.0"/>
+		<override org="org.apache.logging.log4j" module="log4j-slf4j-impl" matcher="exact" rev="2.10.0"/>
+		<override org="org.ow2.asm" module="asm" matcher="exact" rev="5.0.3"/>
+		<override org="org.ow2.asm" module="asm-analysis" matcher="exact" rev="5.0.3"/>
+		<override org="org.ow2.asm" module="asm-commons" matcher="exact" rev="5.0.3"/>
+		<override org="org.ow2.asm" module="asm-tree" matcher="exact" rev="5.0.3"/>
+		<override org="org.ow2.asm" module="asm-util" matcher="exact" rev="5.0.3"/>
+		<override org="org.slf4j" module="jcl-over-slf4j" matcher="exact" rev="1.7.25"/>
+		<override org="org.slf4j" module="jul-to-slf4j" matcher="exact" rev="1.7.25"/>
+		<override org="org.slf4j" module="log4j-over-slf4j" matcher="exact" rev="1.7.25"/>
+		<override org="org.slf4j" module="slf4j-api" matcher="exact" rev="1.7.25"/>
+		<override org="org.slf4j" module="slf4j-nop" matcher="exact" rev="1.7.25"/>
+		<override org="org.slf4j" module="slf4j-log4j12" matcher="exact" rev="1.7.25"/>
+	</dependencies>
+</ivy-module>

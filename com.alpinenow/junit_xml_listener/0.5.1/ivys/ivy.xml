@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="com.alpinenow"
+		module="junit_xml_listener"
+		revision="0.5.1"
+		status="release"
+		publication="20190824124713"
+		default="true"
+	/>
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+	<publications>
+		<artifact name="junit_xml_listener" type="jar" ext="jar" conf="default"/>
+	</publications>
+</ivy-module>
