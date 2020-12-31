@@ -16,7 +16,7 @@
 		<m:properties__jansi.version>1.12</m:properties__jansi.version>
 		<m:properties__build.timestamp>${maven.build.timestamp}</m:properties__build.timestamp>
 		<m:properties__project.reporting.outputEncoding>UTF-8</m:properties__project.reporting.outputEncoding>
-		<m:properties__arguments/>
+		<e:sbtTransformHash>5fa1f0086b0d4682f9eeb0414a48a69059ddf532</e:sbtTransformHash>
 		<m:properties__sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</m:properties__sonatypeOssDistMgmtSnapshotsUrl>
 		<m:maven.plugins>org.apache.maven.plugins__maven-enforcer-plugin__1.2|org.apache.maven.plugins__maven-enforcer-plugin__1.2|null__maven-surefire-plugin__2.18.1|null__maven-compiler-plugin__3.1|null__maven-source-plugin__2.4|org.codehaus.mojo__animal-sniffer-maven-plugin__1.14|org.apache.felix__maven-bundle-plugin__2.5.4|null__maven-jar-plugin__2.6|null__maven-scm-plugin__1.9.4|null__maven-shade-plugin__2.4.1|null__maven-site-plugin__null|null__maven-javadoc-plugin__null|com.mycila.maven-license-plugin__maven-license-plugin__1.9.0|null__maven-enforcer-plugin__1.4.1</m:maven.plugins>
 	</info>

@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="net.databinder.dispatch"
-		module="dispatch-json4s-native_2.12"
-		revision="0.12.0"
-		status="release"
-		publication="20190502101632"
-	>
-		<license name="LGPL v3" url="http://www.gnu.org/licenses/lgpl.txt" />
+	<info organisation="net.databinder.dispatch" module="dispatch-json4s-native_2.12" revision="0.12.0" status="release" publication="20190502101632">
+		<license name="LGPL v3" url="http://www.gnu.org/licenses/lgpl.txt"/>
 		<description homepage="http://dispatch.databinder.net/">
 		Dispatch module providing json4s native support
 		</description>

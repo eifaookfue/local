@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="net.java.dev.jna"
-		module="jna-platform"
-		revision="4.5.0"
-		status="release"
-		publication="20170914052959"
-	>
-		<license name="LGPL, version 2.1" url="http://www.gnu.org/licenses/licenses.html" />
-		<license name="Apache License v2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt" />
+	<info organisation="net.java.dev.jna" module="jna-platform" revision="4.5.0" status="release" publication="20170914052959">
+		<license name="LGPL, version 2.1" url="http://www.gnu.org/licenses/licenses.html"/>
+		<license name="Apache License v2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 		<description homepage="https://github.com/java-native-access/jna">
 		Java Native Access Platform
 		</description>

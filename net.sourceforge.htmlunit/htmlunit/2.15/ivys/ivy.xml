@@ -37,7 +37,7 @@
 		<dependency org="commons-collections" name="commons-collections" rev="3.2.1" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
 		<dependency org="org.apache.commons" name="commons-lang3" rev="3.3.2" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
 		<dependency org="org.apache.httpcomponents" name="httpclient" rev="4.3.3" force="true" conf="compile->compile(*),master(*);runtime->runtime(*);test->runtime(*),master(*)">
-			<artifact name="httpclient" type="test-jar" ext="jar" conf="" m:classifier="tests"/>
+			<artifact name="httpclient" type="test-jar" ext="jar" conf="test" m:classifier="tests"/>
 		</dependency>
 		<dependency org="org.apache.httpcomponents" name="httpmime" rev="4.3.3" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
 		<dependency org="commons-codec" name="commons-codec" rev="1.9" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>

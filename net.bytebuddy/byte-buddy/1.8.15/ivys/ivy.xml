@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
-	<info organisation="net.bytebuddy"
-		module="byte-buddy"
-		revision="1.8.15"
-		status="release"
-		publication="20180727064927"
-	>
-		<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt" />
+	<info organisation="net.bytebuddy" module="byte-buddy" revision="1.8.15" status="release" publication="20180727064927">
+		<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 		<description homepage="">
 		Byte Buddy is a Java library for creating Java classes at run time.
         This artifact is a build of Byte Buddy with all ASM dependencies repackaged into its own name space.

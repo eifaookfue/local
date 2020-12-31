@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
-	<info organisation="net.sourceforge.htmlunit"
-		module="htmlunit-cssparser"
-		revision="1.2.0"
-		status="release"
-		publication="20180909175152"
-	>
-		<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt" />
+	<info organisation="net.sourceforge.htmlunit" module="htmlunit-cssparser" revision="1.2.0" status="release" publication="20180909175152">
+		<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 		<description homepage="https://github.com/HtmlUnit/htmlunit-cssparser">
 		CSS parser for HtmlUnit.
 		</description>

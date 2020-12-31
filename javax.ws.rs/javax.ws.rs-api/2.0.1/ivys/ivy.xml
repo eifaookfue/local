@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="javax.ws.rs"
-		module="javax.ws.rs-api"
-		revision="2.0.1"
-		status="release"
-		publication="20140807210813"
-	>
-		<license name="CDDL 1.1" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html" />
-		<license name="GPL2 w/ CPE" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html" />
-		<description homepage="http://jax-rs-spec.java.net" />
+	<info organisation="javax.ws.rs" module="javax.ws.rs-api" revision="2.0.1" status="release" publication="20140807210813">
+		<license name="CDDL 1.1" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+		<license name="GPL2 w/ CPE" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+		<description homepage="http://jax-rs-spec.java.net"/>
 		<m:properties__spec.version>${last.final.spec.version}</m:properties__spec.version>
 		<m:properties__last.final.spec.version>2.0</m:properties__last.final.spec.version>
 		<m:properties__new.spec.version>${next.final.spec.version}</m:properties__new.spec.version>

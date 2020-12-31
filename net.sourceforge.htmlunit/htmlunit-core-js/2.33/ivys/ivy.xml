@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
-	<info organisation="net.sourceforge.htmlunit"
-		module="htmlunit-core-js"
-		revision="2.33"
-		status="release"
-		publication="20180909234344"
-	>
-		<license name="Mozilla Public License, Version 2.0" url="http://www.mozilla.org/MPL/2.0/index.txt" />
+	<info organisation="net.sourceforge.htmlunit" module="htmlunit-core-js" revision="2.33" status="release" publication="20180909234344">
+		<license name="Mozilla Public License, Version 2.0" url="http://www.mozilla.org/MPL/2.0/index.txt"/>
 		<description homepage="http://htmlunit.sourceforge.net">
 		HtmlUnit adaptation of Mozilla Rhino Javascript engine for Java. Changes are documented by a diff (rhinoDiff.txt) contained in the generated jar files.
 		</description>
