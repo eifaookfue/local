@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="com.github.ben-manes.caffeine"
-		module="caffeine"
-		revision="2.5.6"
-		status="release"
-		publication="20170923085415"
-	>
-		<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt" />
+	<info organisation="com.github.ben-manes.caffeine" module="caffeine" revision="2.5.6" status="release" publication="20170923085415">
+		<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 		<description homepage="https://github.com/ben-manes/caffeine">
 		A high performance caching library for Java 8+
 		</description>

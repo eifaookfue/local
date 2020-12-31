@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="com.squareup.okhttp3"
-		module="okhttp"
-		revision="3.11.0"
-		status="release"
-		publication="20180713124220"
-	>
-		<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt" />
-		<description homepage="" />
+	<info organisation="com.squareup.okhttp3" module="okhttp" revision="3.11.0" status="release" publication="20180713124220">
+		<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+		<description homepage=""/>
 		<m:dependency.management__junit__junit__version>4.12</m:dependency.management__junit__junit__version>
 		<m:properties__conscrypt.version>1.1.4</m:properties__conscrypt.version>
 		<m:properties__bouncycastle.version>1.50</m:properties__bouncycastle.version>

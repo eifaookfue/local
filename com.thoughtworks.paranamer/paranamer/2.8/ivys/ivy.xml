@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="com.thoughtworks.paranamer"
-		module="paranamer"
-		revision="2.8"
-		status="release"
-		publication="20150826202928"
-	>
-		<license name="BSD" url="LICENSE.txt" />
-		<description homepage="" />
+	<info organisation="com.thoughtworks.paranamer" module="paranamer" revision="2.8" status="release" publication="20150826202928">
+		<license name="BSD" url="LICENSE.txt"/>
+		<description homepage=""/>
 		<m:dependency.management__junit__junit__version>4.12</m:dependency.management__junit__junit__version>
 		<e:sbtTransformHash>35abf4d870495011c6cc4e1deeb4041228876565</e:sbtTransformHash>
 		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>

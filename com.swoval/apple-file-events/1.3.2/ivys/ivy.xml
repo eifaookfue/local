@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="com.swoval"
-		module="apple-file-events"
-		revision="1.3.2"
-		status="release"
-		publication="20180411092417"
-	>
-		<license name="MIT" url="https://opensource.org/licenses/MIT" />
+	<info organisation="com.swoval" module="apple-file-events" revision="1.3.2" status="release" publication="20180411092417">
+		<license name="MIT" url="https://opensource.org/licenses/MIT"/>
 		<description homepage="https://github.com/swoval/swoval">
 		JNI library for apple file system
 		</description>

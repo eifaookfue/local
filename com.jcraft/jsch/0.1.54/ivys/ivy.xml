@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="com.jcraft"
-		module="jsch"
-		revision="0.1.54"
-		status="release"
-		publication="20160903184216"
-	>
-		<license name="Revised BSD" url="http://www.jcraft.com/jsch/LICENSE.txt" />
+	<info organisation="com.jcraft" module="jsch" revision="0.1.54" status="release" publication="20160903184216">
+		<license name="Revised BSD" url="http://www.jcraft.com/jsch/LICENSE.txt"/>
 		<description homepage="http://www.jcraft.com/jsch/">
 		JSch is a pure Java implementation of SSH2
 		</description>

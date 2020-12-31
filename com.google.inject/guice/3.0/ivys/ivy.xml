@@ -13,7 +13,6 @@
 		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
 		<m:properties__guice.api.version>1.3</m:properties__guice.api.version>
 		<m:properties__guice.with.jarjar>true</m:properties__guice.with.jarjar>
-		<e:sbtTransformHash>fb750102bb016c7253af9fb2a72bccd3c86e4612</e:sbtTransformHash>
 		<m:maven.plugins>null__maven-remote-resources-plugin__null|org.codehaus.mojo__animal-sniffer-maven-plugin__null|null__maven-surefire-plugin__null|org.apache.felix__maven-bundle-plugin__null|null__maven-jar-plugin__null</m:maven.plugins>
 	</info>
 	<configurations>
@@ -42,7 +41,7 @@
 		<dependency org="biz.aQute" name="bnd" rev="0.0.384" force="true" conf="test->runtime(*),master(*)"/>
 		<dependency org="org.apache.felix" name="org.apache.felix.framework" rev="3.0.5" force="true" conf="test->runtime(*),master(*)"/>
 		<dependency org="org.testng" name="testng" rev="5.11" force="true" conf="test->runtime(*),master(*)">
-			<artifact name="testng" type="jar" ext="jar" conf="" m:classifier="jdk15"/>
+			<artifact name="testng" type="jar" ext="jar" conf="test" m:classifier="jdk15"/>
 		</dependency>
 	</dependencies>
 </ivy-module>

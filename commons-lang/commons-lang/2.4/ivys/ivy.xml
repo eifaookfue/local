@@ -19,16 +19,18 @@
 		<m:properties__commons.jira.id>LANG</m:properties__commons.jira.id>
 		<m:properties__commons.jira.pid>12310481</m:properties__commons.jira.pid>
 		<m:properties__commons.encoding>iso-8859-1</m:properties__commons.encoding>
-		<m:properties__commons.docEncoding>${commons.encoding}</m:properties__commons.docEncoding>
-		<m:properties__organization.logo>http://www.apache.org/images/asf_logo_wide.gif</m:properties__organization.logo>
-		<m:properties__commons.osgi.export>org.apache.commons.*;version=${pom.version}</m:properties__commons.osgi.export>
 		<m:properties__commons.binary.suffix>-bin</m:properties__commons.binary.suffix>
-		<m:properties__commons.deployment.protocol>scp</m:properties__commons.deployment.protocol>
+		<m:properties__commons.osgi.export>org.apache.commons.*;version=${pom.version}</m:properties__commons.osgi.export>
+		<m:properties__commons.docEncoding>${commons.encoding}</m:properties__commons.docEncoding>
 		<m:properties__commons.osgi.import>*</m:properties__commons.osgi.import>
+		<m:properties__commons.osgi.dynamicImport/>
 		<m:properties__commons.manifestfile>target/osgi/MANIFEST.MF</m:properties__commons.manifestfile>
-		<m:properties__commons.osgi.symbolicName>org.apache.commons.${commons.componentid}</m:properties__commons.osgi.symbolicName>
+		<m:properties__commons.osgi.private/>
 		<m:properties__commons.release.name>${project.artifactId}-${commons.release.version}</m:properties__commons.release.name>
-		<e:sbtTransformHash>17d0ad273bc0ec456c5cebaae4eb7f684cbe1d48</e:sbtTransformHash>
+		<m:properties__commons.deployment.protocol>scp</m:properties__commons.deployment.protocol>
+		<m:properties__commons.osgi.symbolicName>org.apache.commons.${commons.componentid}</m:properties__commons.osgi.symbolicName>
+		<m:properties__organization.logo>http://www.apache.org/images/asf_logo_wide.gif</m:properties__organization.logo>
+		<e:sbtTransformHash>a63617c6a5ee35b7c7d187924740c7bc143b9514</e:sbtTransformHash>
 		<m:maven.plugins>null__maven-compiler-plugin__null|null__maven-jar-plugin__null|org.apache.felix__maven-bundle-plugin__null|null__maven-idea-plugin__null|org.apache.maven.plugins__maven-antrun-plugin__null|org.apache.commons__commons-build-plugin__null|null__maven-compiler-plugin__null|null__maven-jar-plugin__null|org.apache.felix__maven-bundle-plugin__null|null__maven-idea-plugin__null|org.apache.maven.plugins__maven-antrun-plugin__null|org.apache.commons__commons-build-plugin__null|org.apache.maven.plugins__maven-surefire-plugin__null|null__maven-assembly-plugin__null</m:maven.plugins>
 	</info>
 	<configurations>

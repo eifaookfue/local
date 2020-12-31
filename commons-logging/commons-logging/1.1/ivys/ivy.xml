@@ -28,6 +28,7 @@
 	<publications>
 		<artifact name="commons-logging" type="jar" ext="jar" conf="master"/>
 		<artifact name="commons-logging" type="source" ext="jar" conf="sources" m:classifier="sources"/>
+		<artifact name="commons-logging" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc"/>
 	</publications>
 	<dependencies>
 		<dependency org="log4j" name="log4j" rev="1.2.12" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
