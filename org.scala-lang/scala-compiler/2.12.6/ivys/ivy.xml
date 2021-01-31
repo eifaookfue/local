@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
-	<info organisation="org.scala-lang" module="scala-compiler" revision="2.12.6" status="release" publication="20180427174227">
-		<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+	<info organisation="org.scala-lang"
+		module="scala-compiler"
+		revision="2.12.6"
+		status="release"
+		publication="20180427174227"
+	>
+		<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html" />
 		<description homepage="http://www.scala-lang.org/">
 		Compiler for the Scala Programming Language
 		</description>
