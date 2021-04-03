@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="org.glassfish.grizzly"
+		module="grizzly-http-server"
+		revision="2.3.18"
+		status="release"
+		publication="20150104155017"
+	>
+		<license name="CDDL+GPL" url="http://glassfish.java.net/public/CDDL+GPL.html" />
+		<description homepage="" />
+		<m:properties__maven-plugin.version>1.0.0</m:properties__maven-plugin.version>
+		<m:properties__findbugs.common>exclude-common.xml</m:properties__findbugs.common>
+		<m:properties__felix-version>2.3.7</m:properties__felix-version>
+		<m:properties__gmbal.version>3.2.0-b003</m:properties__gmbal.version>
+		<m:properties__maven.compiler.argument>
+            -Xlint:unchecked,deprecation,fallthrough,finally,cast,dep-ann,empty,overrides
+        </m:properties__maven.compiler.argument>
+		<m:properties__cobertura.version>2.4</m:properties__cobertura.version>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:properties__junit-version>4.7</m:properties__junit-version>
+		<m:properties__hk2.version>2.1.57</m:properties__hk2.version>
+		<m:properties__findbugs.skip>false</m:properties__findbugs.skip>
+		<m:properties__servlet-version>3.1.0</m:properties__servlet-version>
+		<m:properties__jvnetDistMgmtSnapshotsUrl>https://maven.java.net/content/repositories/snapshots/</m:properties__jvnetDistMgmtSnapshotsUrl>
+		<m:maven.plugins>org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.glassfish.copyright__glassfish-copyright-maven-plugin__1.39|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.glassfish.copyright__glassfish-copyright-maven-plugin__1.39|org.sonatype.plugins__nexus-maven-plugin__2.0.6|null__maven-compiler-plugin__3.0|org.apache.maven.plugins__maven-source-plugin__null|org.apache.maven.plugins__maven-release-plugin__2.5|org.apache.maven.plugins__maven-deploy-plugin__2.7|org.apache.maven.plugins__maven-jar-plugin__2.4|org.glassfish.copyright__glassfish-copyright-maven-plugin__1.39|org.codehaus.mojo__findbugs-maven-plugin__2.5.2|org.apache.maven.plugins__maven-enforcer-plugin__1.3.1|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.glassfish.copyright__glassfish-copyright-maven-plugin__1.39|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.glassfish.copyright__glassfish-copyright-maven-plugin__1.39|org.sonatype.plugins__nexus-maven-plugin__2.0.6|null__maven-compiler-plugin__3.0|org.apache.maven.plugins__maven-source-plugin__null|org.apache.maven.plugins__maven-release-plugin__2.5|org.apache.maven.plugins__maven-deploy-plugin__2.7|org.apache.maven.plugins__maven-jar-plugin__2.4|org.glassfish.copyright__glassfish-copyright-maven-plugin__1.39|org.codehaus.mojo__findbugs-maven-plugin__2.5.2|org.apache.maven.plugins__maven-enforcer-plugin__1.3.1|org.apache.maven.plugins__maven-surefire-plugin__null|org.apache.felix__maven-bundle-plugin__2.3.7</m:maven.plugins>
+		<m:dependency.management__org.glassfish.grizzly__grizzly-framework__version>2.3.18</m:dependency.management__org.glassfish.grizzly__grizzly-framework__version>
+		<m:dependency.management__org.glassfish.grizzly__grizzly-compression__version>2.3.18</m:dependency.management__org.glassfish.grizzly__grizzly-compression__version>
+		<m:dependency.management__org.glassfish.grizzly__grizzly-http__version>2.3.18</m:dependency.management__org.glassfish.grizzly__grizzly-http__version>
+		<m:dependency.management__org.glassfish.grizzly__grizzly-http-server__version>2.3.18</m:dependency.management__org.glassfish.grizzly__grizzly-http-server__version>
+		<m:dependency.management__org.glassfish.grizzly__grizzly-http-servlet__version>2.3.18</m:dependency.management__org.glassfish.grizzly__grizzly-http-servlet__version>
+		<m:dependency.management__org.glassfish.grizzly__grizzly-portunif__version>2.3.18</m:dependency.management__org.glassfish.grizzly__grizzly-portunif__version>
+		<m:dependency.management__org.glassfish.grizzly__grizzly-http-ajp__version>2.3.18</m:dependency.management__org.glassfish.grizzly__grizzly-http-ajp__version>
+		<m:dependency.management__org.glassfish.grizzly__grizzly-websockets__version>2.3.18</m:dependency.management__org.glassfish.grizzly__grizzly-websockets__version>
+		<m:dependency.management__org.glassfish.grizzly__grizzly-spdy__version>2.3.18</m:dependency.management__org.glassfish.grizzly__grizzly-spdy__version>
+		<m:dependency.management__org.glassfish.grizzly__grizzly-comet__version>2.3.18</m:dependency.management__org.glassfish.grizzly__grizzly-comet__version>
+		<m:dependency.management__org.glassfish.grizzly__grizzly-http-server-multipart__version>2.3.18</m:dependency.management__org.glassfish.grizzly__grizzly-http-server-multipart__version>
+		<m:dependency.management__org.glassfish.grizzly__grizzly-http-server-jaxws__version>2.3.18</m:dependency.management__org.glassfish.grizzly__grizzly-http-server-jaxws__version>
+		<m:dependency.management__org.glassfish.grizzly__grizzly-http-servlet-extras__version>2.3.18</m:dependency.management__org.glassfish.grizzly__grizzly-http-servlet-extras__version>
+		<m:dependency.management__org.glassfish.grizzly.osgi__grizzly-httpservice__version>2.3.18</m:dependency.management__org.glassfish.grizzly.osgi__grizzly-httpservice__version>
+		<m:dependency.management__org.glassfish.grizzly__grizzly-framework-monitoring__version>2.3.18</m:dependency.management__org.glassfish.grizzly__grizzly-framework-monitoring__version>
+		<m:dependency.management__org.glassfish.grizzly__grizzly-http-monitoring__version>2.3.18</m:dependency.management__org.glassfish.grizzly__grizzly-http-monitoring__version>
+		<m:dependency.management__org.glassfish.grizzly__grizzly-http-server-monitoring__version>2.3.18</m:dependency.management__org.glassfish.grizzly__grizzly-http-server-monitoring__version>
+		<m:dependency.management__org.glassfish.grizzly__grizzly-core__version>2.3.18</m:dependency.management__org.glassfish.grizzly__grizzly-core__version>
+		<m:dependency.management__org.glassfish.grizzly__grizzly-http-server-core__version>2.3.18</m:dependency.management__org.glassfish.grizzly__grizzly-http-server-core__version>
+		<m:dependency.management__org.glassfish.grizzly__grizzly-http-all__version>2.3.18</m:dependency.management__org.glassfish.grizzly__grizzly-http-all__version>
+		<m:dependency.management__org.glassfish.grizzly__grizzly-http-servlet-server__version>2.3.18</m:dependency.management__org.glassfish.grizzly__grizzly-http-servlet-server__version>
+		<m:dependency.management__org.glassfish.grizzly__grizzly-websockets-server__version>2.3.18</m:dependency.management__org.glassfish.grizzly__grizzly-websockets-server__version>
+		<m:dependency.management__org.glassfish.grizzly__grizzly-comet-server__version>2.3.18</m:dependency.management__org.glassfish.grizzly__grizzly-comet-server__version>
+		<m:dependency.management__org.glassfish.grizzly.osgi__grizzly-httpservice-bundle__version>2.3.18</m:dependency.management__org.glassfish.grizzly.osgi__grizzly-httpservice-bundle__version>
+		<m:dependency.management__org.glassfish.gmbal__gmbal-api-only__version>3.2.0-b003</m:dependency.management__org.glassfish.gmbal__gmbal-api-only__version>
+		<m:dependency.management__org.glassfish.gmbal__gmbal__version>3.2.0-b003</m:dependency.management__org.glassfish.gmbal__gmbal__version>
+		<m:dependency.management__org.apache.maven__maven-plugin-tools-api__version>2.0</m:dependency.management__org.apache.maven__maven-plugin-tools-api__version>
+		<m:dependency.management__org.apache.felix__maven-bundle-plugin__version>2.3.7</m:dependency.management__org.apache.felix__maven-bundle-plugin__version>
+		<m:dependency.management__org.glassfish.hk2__core__version>2.1.57</m:dependency.management__org.glassfish.hk2__core__version>
+		<m:dependency.management__org.glassfish.hk2__core__scope>provided</m:dependency.management__org.glassfish.hk2__core__scope>
+		<m:dependency.management__org.glassfish.hk2__hk2-locator__version>2.1.57</m:dependency.management__org.glassfish.hk2__hk2-locator__version>
+		<m:dependency.management__org.glassfish.hk2__hk2-locator__scope>provided</m:dependency.management__org.glassfish.hk2__hk2-locator__scope>
+		<m:dependency.management__org.glassfish.hk2__hk2-config__version>2.1.57</m:dependency.management__org.glassfish.hk2__hk2-config__version>
+		<m:dependency.management__org.glassfish.hk2__hk2-config__scope>provided</m:dependency.management__org.glassfish.hk2__hk2-config__scope>
+		<m:dependency.management__org.glassfish.hk2__config-types__version>2.1.57</m:dependency.management__org.glassfish.hk2__config-types__version>
+		<m:dependency.management__org.glassfish.hk2__config-types__scope>provided</m:dependency.management__org.glassfish.hk2__config-types__scope>
+		<m:dependency.management__org.glassfish.hk2__osgi-adapter__version>2.1.57</m:dependency.management__org.glassfish.hk2__osgi-adapter__version>
+		<m:dependency.management__org.glassfish.hk2__osgi-adapter__scope>provided</m:dependency.management__org.glassfish.hk2__osgi-adapter__scope>
+		<m:dependency.management__javax.servlet__javax.servlet-api__version>3.1.0</m:dependency.management__javax.servlet__javax.servlet-api__version>
+		<m:dependency.management__org.osgi__org.osgi.core__version>4.2.0</m:dependency.management__org.osgi__org.osgi.core__version>
+		<m:dependency.management__org.osgi__org.osgi.core__scope>provided</m:dependency.management__org.osgi__org.osgi.core__scope>
+		<m:dependency.management__org.osgi__org.osgi.compendium__version>4.2.0</m:dependency.management__org.osgi__org.osgi.compendium__version>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="public" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+		<artifact name="grizzly-http-server" type="bundle" ext="jar" conf="master"/>
+		<artifact name="grizzly-http-server" type="source" ext="jar" conf="sources" m:classifier="sources"/>
+		<artifact name="grizzly-http-server" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.glassfish.grizzly" name="grizzly-http" rev="2.3.18" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="org.glassfish.gmbal" name="gmbal-api-only" rev="3.2.0-b003" force="true" conf="optional->compile(*),provided(*),runtime(*),master(*)"/>
+		<dependency org="org.glassfish.gmbal" name="gmbal" rev="3.2.0-b003" force="true" conf="optional->compile(*),provided(*),runtime(*),master(*)"/>
+		<dependency org="org.mockito" name="mockito-all" rev="1.9.5" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="junit" name="junit" rev="4.7" force="true" conf="test->runtime(*),master(*)"/>
+		<override org="org.glassfish.grizzly" module="grizzly-framework" matcher="exact" rev="2.3.18"/>
+		<override org="org.glassfish.grizzly" module="grizzly-compression" matcher="exact" rev="2.3.18"/>
+		<override org="org.glassfish.grizzly" module="grizzly-http" matcher="exact" rev="2.3.18"/>
+		<override org="org.glassfish.grizzly" module="grizzly-http-server" matcher="exact" rev="2.3.18"/>
+		<override org="org.glassfish.grizzly" module="grizzly-http-servlet" matcher="exact" rev="2.3.18"/>
+		<override org="org.glassfish.grizzly" module="grizzly-portunif" matcher="exact" rev="2.3.18"/>
+		<override org="org.glassfish.grizzly" module="grizzly-http-ajp" matcher="exact" rev="2.3.18"/>
+		<override org="org.glassfish.grizzly" module="grizzly-websockets" matcher="exact" rev="2.3.18"/>
+		<override org="org.glassfish.grizzly" module="grizzly-spdy" matcher="exact" rev="2.3.18"/>
+		<override org="org.glassfish.grizzly" module="grizzly-comet" matcher="exact" rev="2.3.18"/>
+		<override org="org.glassfish.grizzly" module="grizzly-http-server-multipart" matcher="exact" rev="2.3.18"/>
+		<override org="org.glassfish.grizzly" module="grizzly-http-server-jaxws" matcher="exact" rev="2.3.18"/>
+		<override org="org.glassfish.grizzly" module="grizzly-http-servlet-extras" matcher="exact" rev="2.3.18"/>
+		<override org="org.glassfish.grizzly.osgi" module="grizzly-httpservice" matcher="exact" rev="2.3.18"/>
+		<override org="org.glassfish.grizzly" module="grizzly-framework-monitoring" matcher="exact" rev="2.3.18"/>
+		<override org="org.glassfish.grizzly" module="grizzly-http-monitoring" matcher="exact" rev="2.3.18"/>
+		<override org="org.glassfish.grizzly" module="grizzly-http-server-monitoring" matcher="exact" rev="2.3.18"/>
+		<override org="org.glassfish.grizzly" module="grizzly-core" matcher="exact" rev="2.3.18"/>
+		<override org="org.glassfish.grizzly" module="grizzly-http-server-core" matcher="exact" rev="2.3.18"/>
+		<override org="org.glassfish.grizzly" module="grizzly-http-all" matcher="exact" rev="2.3.18"/>
+		<override org="org.glassfish.grizzly" module="grizzly-http-servlet-server" matcher="exact" rev="2.3.18"/>
+		<override org="org.glassfish.grizzly" module="grizzly-websockets-server" matcher="exact" rev="2.3.18"/>
+		<override org="org.glassfish.grizzly" module="grizzly-comet-server" matcher="exact" rev="2.3.18"/>
+		<override org="org.glassfish.grizzly.osgi" module="grizzly-httpservice-bundle" matcher="exact" rev="2.3.18"/>
+		<override org="org.glassfish.gmbal" module="gmbal-api-only" matcher="exact" rev="3.2.0-b003"/>
+		<override org="org.glassfish.gmbal" module="gmbal" matcher="exact" rev="3.2.0-b003"/>
+		<override org="org.apache.maven" module="maven-plugin-tools-api" matcher="exact" rev="2.0"/>
+		<override org="org.apache.felix" module="maven-bundle-plugin" matcher="exact" rev="2.3.7"/>
+		<override org="org.glassfish.hk2" module="core" matcher="exact" rev="2.1.57"/>
+		<override org="org.glassfish.hk2" module="hk2-locator" matcher="exact" rev="2.1.57"/>
+		<override org="org.glassfish.hk2" module="hk2-config" matcher="exact" rev="2.1.57"/>
+		<override org="org.glassfish.hk2" module="config-types" matcher="exact" rev="2.1.57"/>
+		<override org="org.glassfish.hk2" module="osgi-adapter" matcher="exact" rev="2.1.57"/>
+		<override org="javax.servlet" module="javax.servlet-api" matcher="exact" rev="3.1.0"/>
+		<override org="org.osgi" module="org.osgi.core" matcher="exact" rev="4.2.0"/>
+		<override org="org.osgi" module="org.osgi.compendium" matcher="exact" rev="4.2.0"/>
+	</dependencies>
+</ivy-module>
