@@ -13,7 +13,6 @@
 		<m:properties__branch.tag>android-4.1.1_r4</m:properties__branch.tag>
 		<m:properties__platform>android-16</m:properties__platform>
 		<m:properties__release.name>jellybean-4.1</m:properties__release.name>
-		<e:sbtTransformHash>8d3ea6a1c3ba07735f26bf7a37c304d5e3185cfa</e:sbtTransformHash>
 		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
 		<m:properties__sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</m:properties__sonatypeOssDistMgmtSnapshotsUrl>
 		<m:maven.plugins>org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-compiler-plugin__2.3.2</m:maven.plugins>

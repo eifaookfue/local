@@ -67,10 +67,10 @@
 	</publications>
 	<dependencies>
 		<dependency org="ch.qos.logback" name="logback-core" rev="1.2.0" force="true" conf="compile->compile(*),master(*);runtime->runtime(*);test->runtime(*),master(*)">
-			<artifact name="logback-core" type="test-jar" ext="jar" conf="" m:classifier="tests"/>
+			<artifact name="logback-core" type="test-jar" ext="jar" conf="test" m:classifier="tests"/>
 		</dependency>
 		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.22" force="true" conf="compile->compile(*),master(*);runtime->runtime(*);test->runtime(*),master(*)">
-			<artifact name="slf4j-api" type="test-jar" ext="jar" conf="" m:classifier="tests"/>
+			<artifact name="slf4j-api" type="test-jar" ext="jar" conf="test" m:classifier="tests"/>
 		</dependency>
 		<dependency org="org.slf4j" name="slf4j-ext" rev="1.7.22" force="true" conf="test->runtime(*),master(*)"/>
 		<dependency org="org.slf4j" name="log4j-over-slf4j" rev="1.7.22" force="true" conf="test->runtime(*),master(*)"/>

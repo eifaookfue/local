@@ -72,11 +72,11 @@
 		<m:properties__commons.release.2.desc/>
 		<m:properties__commons.compiler.compilerVersion/>
 		<m:properties__distMgmtSnapshotsUrl>https://repository.apache.org/content/repositories/snapshots</m:properties__distMgmtSnapshotsUrl>
-		<m:properties__distMgmtSnapshotsName>Apache Development Snapshot Repository</m:properties__distMgmtSnapshotsName>
-		<m:properties__organization.logo>http://www.apache.org/images/asf_logo_wide.gif</m:properties__organization.logo>
-		<m:properties__sourceReleaseAssemblyDescriptor>source-release</m:properties__sourceReleaseAssemblyDescriptor>
 		<m:properties__gpg.useagent>true</m:properties__gpg.useagent>
-		<e:sbtTransformHash>5dbb1185280e770345dd29d970fddd61d80a646f</e:sbtTransformHash>
+		<m:properties__distMgmtSnapshotsName>Apache Development Snapshot Repository</m:properties__distMgmtSnapshotsName>
+		<m:properties__arguments/>
+		<m:properties__sourceReleaseAssemblyDescriptor>source-release</m:properties__sourceReleaseAssemblyDescriptor>
+		<m:properties__organization.logo>http://www.apache.org/images/asf_logo_wide.gif</m:properties__organization.logo>
 		<m:maven.plugins>org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-antrun-plugin__null|org.apache.maven.plugins__maven-compiler-plugin__null|org.apache.maven.plugins__maven-jar-plugin__null|org.apache.maven.plugins__maven-surefire-plugin__null|org.apache.commons__commons-build-plugin__null|org.apache.felix__maven-bundle-plugin__null|org.apache.rat__apache-rat-plugin__0.8|org.apache.maven.plugins__maven-scm-publish-plugin__1.0-beta-2|org.codehaus.mojo__buildnumber-maven-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-antrun-plugin__null|org.apache.maven.plugins__maven-compiler-plugin__null|org.apache.maven.plugins__maven-jar-plugin__null|org.apache.maven.plugins__maven-surefire-plugin__null|org.apache.commons__commons-build-plugin__null|org.apache.felix__maven-bundle-plugin__null|org.apache.rat__apache-rat-plugin__0.8|org.apache.maven.plugins__maven-scm-publish-plugin__1.0-beta-2|org.codehaus.mojo__buildnumber-maven-plugin__null|org.apache.maven.plugins__maven-jar-plugin__null|org.apache.maven.plugins__maven-antrun-plugin__null|org.codehaus.mojo__build-helper-maven-plugin__1.0|org.apache.maven.plugins__maven-surefire-plugin__null|org.codehaus.mojo__cobertura-maven-plugin__2.5.2|org.apache.maven.plugins__maven-failsafe-plugin__2.12|org.apache.maven.plugins__maven-assembly-plugin__2.3|org.apache.maven.plugins__maven-dependency-plugin__2.4|org.apache.maven.plugins__maven-scm-publish-plugin__null</m:maven.plugins>
 	</info>
 	<configurations>

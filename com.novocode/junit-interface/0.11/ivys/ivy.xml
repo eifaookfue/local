@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
-	<info organisation="com.novocode"
-		module="junit-interface"
-		revision="0.11"
-		status="release"
-		publication="20140814172745"
-	>
-		<license name="Two-clause BSD-style license" url="http://github.com/sbt/junit-interface/blob/master/LICENSE.txt" />
+	<info organisation="com.novocode" module="junit-interface" revision="0.11" status="release" publication="20140814172745">
+		<license name="Two-clause BSD-style license" url="http://github.com/sbt/junit-interface/blob/master/LICENSE.txt"/>
 		<description homepage="http://github.com/sbt/junit-interface/">
 		An implementation of sbt&apos;s test interface for JUnit 4
 		</description>

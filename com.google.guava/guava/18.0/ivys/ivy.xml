@@ -18,7 +18,6 @@
 		<m:properties__truth.version>0.23</m:properties__truth.version>
 		<m:properties__gpg.skip>true</m:properties__gpg.skip>
 		<m:properties__test.include>**/*Test.java</m:properties__test.include>
-		<e:sbtTransformHash>8d3ea6a1c3ba07735f26bf7a37c304d5e3185cfa</e:sbtTransformHash>
 		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
 		<m:properties__sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</m:properties__sonatypeOssDistMgmtSnapshotsUrl>
 		<m:maven.plugins>org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-enforcer-plugin__1.0|null__maven-gpg-plugin__1.4|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-enforcer-plugin__1.0|null__maven-gpg-plugin__1.4|org.apache.felix__maven-bundle-plugin__2.3.7|null__maven-compiler-plugin__null|null__maven-source-plugin__null|null__maven-dependency-plugin__null|org.codehaus.mojo__animal-sniffer-maven-plugin__null|org.apache.maven.plugins__maven-javadoc-plugin__null</m:maven.plugins>

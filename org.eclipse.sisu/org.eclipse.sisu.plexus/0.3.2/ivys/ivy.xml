@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="org.eclipse.sisu"
-		module="org.eclipse.sisu.plexus"
-		revision="0.3.2"
-		status="release"
-		publication="20150914084525"
-	>
-		<license name="Eclipse Public License, Version 1.0" url="http://www.eclipse.org/legal/epl-v10.html" />
-		<description homepage="" />
+	<info organisation="org.eclipse.sisu" module="org.eclipse.sisu.plexus" revision="0.3.2" status="release" publication="20150914084525">
+		<license name="Eclipse Public License, Version 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+		<description homepage=""/>
 		<m:properties__tycho-version>0.22.0</m:properties__tycho-version>
 		<m:properties__tycho.scmUrl>scm:git:http://git.eclipse.org/gitroot/sisu/org.eclipse.sisu.plexus.git</m:properties__tycho.scmUrl>
 		<e:sbtTransformHash>8e7a63d8b05b5fd14282d7f378716751cc10a070</e:sbtTransformHash>

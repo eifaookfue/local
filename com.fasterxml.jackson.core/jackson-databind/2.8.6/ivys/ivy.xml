@@ -72,5 +72,6 @@
 		<dependency org="com.google.jimfs" name="jimfs" rev="1.1" force="true" conf="test->runtime(*),master(*)"/>
 		<override org="com.fasterxml.jackson.core" module="jackson-annotations" matcher="exact" rev="2.8.0"/>
 		<override org="junit" module="junit" matcher="exact" rev="4.12"/>
+		<override org="junit" module="junit" matcher="exact" rev="4.12"/>
 	</dependencies>
 </ivy-module>

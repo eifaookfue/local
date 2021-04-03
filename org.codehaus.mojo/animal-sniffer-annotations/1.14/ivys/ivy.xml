@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="org.codehaus.mojo"
-		module="animal-sniffer-annotations"
-		revision="1.14"
-		status="release"
-		publication="20150226015330"
-	>
-		<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php" />
-		<description homepage="" />
+	<info organisation="org.codehaus.mojo" module="animal-sniffer-annotations" revision="1.14" status="release" publication="20150226015330">
+		<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+		<description homepage=""/>
 		<m:dependency.management__junit__junit__version>4.11</m:dependency.management__junit__junit__version>
 		<m:properties__project.reporting.outputEncoding>UTF-8</m:properties__project.reporting.outputEncoding>
 		<m:properties__mojo.java.target>1.5</m:properties__mojo.java.target>

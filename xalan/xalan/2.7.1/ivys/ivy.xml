@@ -14,7 +14,6 @@
     the command line, in an applet or a servlet, or as a module in other program.
 		</description>
 		<m:properties__organization.logo>http://www.apache.org/images/asf_logo_wide.gif</m:properties__organization.logo>
-		<e:sbtTransformHash>a63617c6a5ee35b7c7d187924740c7bc143b9514</e:sbtTransformHash>
 	</info>
 	<configurations>
 		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>

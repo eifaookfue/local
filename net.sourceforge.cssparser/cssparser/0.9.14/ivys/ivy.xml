@@ -10,7 +10,6 @@
 		<description homepage="http://cssparser.sourceforge.net/">
 		A CSS parser which implements SAC (the Simple API for CSS).
 		</description>
-		<e:sbtTransformHash>8d3ea6a1c3ba07735f26bf7a37c304d5e3185cfa</e:sbtTransformHash>
 		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
 		<m:properties__sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</m:properties__sonatypeOssDistMgmtSnapshotsUrl>
 		<m:maven.plugins>org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-compiler-plugin__3.0|org.codehaus.mojo__javacc-maven-plugin__2.6|com.google.code.maven-replacer-plugin__replacer__1.5.2|org.apache.maven.plugins__maven-checkstyle-plugin__2.10|org.apache.maven.plugins__maven-source-plugin__2.2.1|org.apache.maven.plugins__maven-site-plugin__3.3|org.apache.maven.plugins__maven-eclipse-plugin__2.9|org.apache.maven.plugins__maven-release-plugin__2.4</m:maven.plugins>

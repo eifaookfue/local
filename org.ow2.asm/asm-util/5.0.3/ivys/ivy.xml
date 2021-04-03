@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="org.ow2.asm"
-		module="asm-util"
-		revision="5.0.3"
-		status="release"
-		publication="20140524173053"
-	>
-		<license name="BSD" url="http://asm.objectweb.org/license.html" />
-		<description homepage="" />
+	<info organisation="org.ow2.asm" module="asm-util" revision="5.0.3" status="release" publication="20140524173053">
+		<license name="BSD" url="http://asm.objectweb.org/license.html"/>
+		<description homepage=""/>
 		<m:properties__ow2DistMgmtSnapshotsUrl>http://repository.ow2.org/nexus/content/repositories/snapshots</m:properties__ow2DistMgmtSnapshotsUrl>
 		<m:properties__organization.logo>
       http://www.ow2.org/xwiki/bin/download/NewsEvents/MarketingResources/ow2_logo_small_transp.png

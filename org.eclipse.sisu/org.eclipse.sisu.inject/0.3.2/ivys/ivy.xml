@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="org.eclipse.sisu"
-		module="org.eclipse.sisu.inject"
-		revision="0.3.2"
-		status="release"
-		publication="20150914084108"
-	>
-		<license name="Eclipse Public License, Version 1.0" url="http://www.eclipse.org/legal/epl-v10.html" />
-		<description homepage="" />
+	<info organisation="org.eclipse.sisu" module="org.eclipse.sisu.inject" revision="0.3.2" status="release" publication="20150914084108">
+		<license name="Eclipse Public License, Version 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+		<description homepage=""/>
 		<m:properties__tycho-version>0.22.0</m:properties__tycho-version>
 		<m:properties__tycho.scmUrl>scm:git:http://git.eclipse.org/gitroot/sisu/org.eclipse.sisu.inject.git</m:properties__tycho.scmUrl>
 		<e:sbtTransformHash>d08dba9240d78f04dde8b3d4f0786593feb22ce2</e:sbtTransformHash>

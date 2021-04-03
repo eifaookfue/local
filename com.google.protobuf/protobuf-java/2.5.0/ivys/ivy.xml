@@ -11,7 +11,6 @@
 		Protocol Buffers are a way of encoding structured data in an efficient yet
     extensible format.
 		</description>
-		<e:sbtTransformHash>07cc69f6ecdbc0a05ea93d00e53dd5b5c30cd2da</e:sbtTransformHash>
 		<m:maven.plugins>null__maven-compiler-plugin__null|null__maven-surefire-plugin__null|null__maven-antrun-plugin__null|org.apache.felix__maven-bundle-plugin__null</m:maven.plugins>
 	</info>
 	<configurations>

@@ -15,7 +15,6 @@
 		<m:properties__java.version.source>1.5</m:properties__java.version.source>
 		<m:properties__java.version.target>1.5</m:properties__java.version.target>
 		<m:properties__project.reporting.outputEncoding>UTF-8</m:properties__project.reporting.outputEncoding>
-		<e:sbtTransformHash>8d3ea6a1c3ba07735f26bf7a37c304d5e3185cfa</e:sbtTransformHash>
 		<m:properties__sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</m:properties__sonatypeOssDistMgmtSnapshotsUrl>
 		<m:maven.plugins>org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-gpg-plugin__1.6|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-gpg-plugin__1.6|org.apache.maven.plugins__maven-compiler-plugin__null|org.apache.maven.plugins__maven-surefire-plugin__null|org.apache.maven.plugins__maven-javadoc-plugin__null</m:maven.plugins>
 		<m:dependency.management__cglib__cglib__version>3.2.0</m:dependency.management__cglib__cglib__version>

@@ -8,13 +8,12 @@
 	>
 		<license name="BSD" url="http://asm.objectweb.org/license.html" />
 		<description homepage="" />
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:properties__ow2DistMgmtReleasesUrl>http://repository.ow2.org/nexus/service/local/staging/deploy/maven2</m:properties__ow2DistMgmtReleasesUrl>
 		<m:properties__ow2DistMgmtSnapshotsUrl>http://repository.ow2.org/nexus/content/repositories/snapshots</m:properties__ow2DistMgmtSnapshotsUrl>
 		<m:properties__organization.logo>
       http://www.ow2.org/xwiki/bin/download/NewsEvents/MarketingResources/ow2_logo_small_transp.png
     </m:properties__organization.logo>
-		<m:properties__ow2DistMgmtReleasesUrl>http://repository.ow2.org/nexus/service/local/staging/deploy/maven2</m:properties__ow2DistMgmtReleasesUrl>
-		<e:sbtTransformHash>d8d1c501c1f488b46142dcbaab0b35ea87403fb6</e:sbtTransformHash>
-		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
 		<m:maven.plugins>org.apache.maven.plugins__maven-enforcer-plugin__1.0-beta-1|org.apache.maven.plugins__maven-enforcer-plugin__1.0-beta-1|org.apache.maven.plugins__maven-enforcer-plugin__1.0-beta-1|org.apache.maven.plugins__maven-enforcer-plugin__1.0-beta-1</m:maven.plugins>
 		<m:dependency.management__org.ow2.asm__asm__version>5.0.4</m:dependency.management__org.ow2.asm__asm__version>
 		<m:dependency.management__org.ow2.asm__asm-tree__version>5.0.4</m:dependency.management__org.ow2.asm__asm-tree__version>

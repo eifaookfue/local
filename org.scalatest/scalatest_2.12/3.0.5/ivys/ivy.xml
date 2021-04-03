@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="org.scalatest"
-		module="scalatest_2.12"
-		revision="3.0.5"
-		status="release"
-		publication="20180129222347"
-	>
-		<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0" />
+	<info organisation="org.scalatest" module="scalatest_2.12" revision="3.0.5" status="release" publication="20180129222347">
+		<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 		<description homepage="http://www.scalatest.org">
 		scalatest
 		</description>

@@ -24,28 +24,28 @@
 		<m:properties__commons-codec.version>1.6</m:properties__commons-codec.version>
 		<m:properties__junit.version>4.9</m:properties__junit.version>
 		<m:properties__jna.version>4.0.0</m:properties__jna.version>
-		<m:properties__hc.clover2.version>3.1.11</m:properties__hc.clover2.version>
-		<m:properties__organization.logo>http://www.apache.org/images/asf_logo_wide.gif</m:properties__organization.logo>
-		<m:properties__maven.build.timestamp.format>yyyy-MM-dd HH:mm:ssZ</m:properties__maven.build.timestamp.format>
+		<m:properties__maven.compiler.optimize>true</m:properties__maven.compiler.optimize>
+		<m:properties__hc.surefire.version>2.15</m:properties__hc.surefire.version>
+		<m:properties__maven.compiler.showDeprecation>true</m:properties__maven.compiler.showDeprecation>
 		<m:properties__implementation.build>${scmBranch}@r${buildNumber}; ${maven.build.timestamp}</m:properties__implementation.build>
-		<m:properties__minSeverity>info</m:properties__minSeverity>
+		<m:properties__project.reporting.outputEncoding>UTF-8</m:properties__project.reporting.outputEncoding>
 		<m:properties__hc.clirr.version>2.5</m:properties__hc.clirr.version>
 		<m:properties__hc.jxr.version>2.3</m:properties__hc.jxr.version>
+		<m:properties__minSeverity>info</m:properties__minSeverity>
 		<m:properties__hc.site.url>scp://people.apache.org/www/hc.apache.org/</m:properties__hc.site.url>
-		<m:properties__maven.compiler.showDeprecation>true</m:properties__maven.compiler.showDeprecation>
-		<e:sbtTransformHash>e38c5427042ea5d743fcc63230f2453000f9e8be</e:sbtTransformHash>
-		<m:maven.plugins>org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|null__maven-compiler-plugin__null|null__maven-jar-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|null__maven-compiler-plugin__null|null__maven-jar-plugin__null|null__maven-jar-plugin__null|null__maven-source-plugin__null|null__maven-javadoc-plugin__null|com.agilejava.docbkx__docbkx-maven-plugin__null|null__maven-resources-plugin__null|org.codehaus.mojo__clirr-maven-plugin__null|org.apache.maven.plugins__maven-checkstyle-plugin__2.9.1|org.apache.rat__apache-rat-plugin__0.11|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|null__maven-compiler-plugin__null|null__maven-jar-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|null__maven-compiler-plugin__null|null__maven-jar-plugin__null|null__maven-jar-plugin__null|null__maven-source-plugin__null|null__maven-javadoc-plugin__null|com.agilejava.docbkx__docbkx-maven-plugin__null|null__maven-resources-plugin__null|org.codehaus.mojo__clirr-maven-plugin__null|org.apache.maven.plugins__maven-checkstyle-plugin__2.9.1|org.apache.rat__apache-rat-plugin__0.11|org.codehaus.mojo__build-helper-maven-plugin__1.8|null__maven-jar-plugin__null</m:maven.plugins>
-		<m:properties__project.reporting.outputEncoding>UTF-8</m:properties__project.reporting.outputEncoding>
-		<m:properties__distMgmtSnapshotsUrl>https://repository.apache.org/content/repositories/snapshots</m:properties__distMgmtSnapshotsUrl>
-		<m:properties__hc.project-info.version>2.7</m:properties__hc.project-info.version>
-		<m:properties__gpg.useagent>true</m:properties__gpg.useagent>
+		<m:properties__hc.clover2.version>3.1.11</m:properties__hc.clover2.version>
+		<m:properties__maven.build.timestamp.format>yyyy-MM-dd HH:mm:ssZ</m:properties__maven.build.timestamp.format>
 		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
-		<m:properties__hc.javadoc.version>2.9.1</m:properties__hc.javadoc.version>
+		<m:properties__hc.project-info.version>2.7</m:properties__hc.project-info.version>
 		<m:properties__hc.surefire-report.version>2.15</m:properties__hc.surefire-report.version>
-		<m:properties__maven.compiler.optimize>true</m:properties__maven.compiler.optimize>
+		<m:properties__hc.javadoc.version>2.9.1</m:properties__hc.javadoc.version>
+		<m:properties__distMgmtSnapshotsUrl>https://repository.apache.org/content/repositories/snapshots</m:properties__distMgmtSnapshotsUrl>
+		<m:properties__gpg.useagent>true</m:properties__gpg.useagent>
 		<m:properties__distMgmtSnapshotsName>Apache Development Snapshot Repository</m:properties__distMgmtSnapshotsName>
-		<m:properties__hc.surefire.version>2.15</m:properties__hc.surefire.version>
+		<m:properties__arguments/>
 		<m:properties__sourceReleaseAssemblyDescriptor>source-release</m:properties__sourceReleaseAssemblyDescriptor>
+		<m:properties__organization.logo>http://www.apache.org/images/asf_logo_wide.gif</m:properties__organization.logo>
+		<m:maven.plugins>org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|null__maven-compiler-plugin__null|null__maven-jar-plugin__null|org.codehaus.mojo__buildnumber-maven-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|null__maven-compiler-plugin__null|null__maven-jar-plugin__null|org.codehaus.mojo__buildnumber-maven-plugin__null|null__maven-jar-plugin__null|null__maven-source-plugin__null|null__maven-javadoc-plugin__null|com.agilejava.docbkx__docbkx-maven-plugin__null|null__maven-resources-plugin__null|org.codehaus.mojo__clirr-maven-plugin__null|org.apache.maven.plugins__maven-checkstyle-plugin__2.9.1|org.apache.rat__apache-rat-plugin__0.11|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|null__maven-compiler-plugin__null|null__maven-jar-plugin__null|org.codehaus.mojo__buildnumber-maven-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|null__maven-compiler-plugin__null|null__maven-jar-plugin__null|org.codehaus.mojo__buildnumber-maven-plugin__null|null__maven-jar-plugin__null|null__maven-source-plugin__null|null__maven-javadoc-plugin__null|com.agilejava.docbkx__docbkx-maven-plugin__null|null__maven-resources-plugin__null|org.codehaus.mojo__clirr-maven-plugin__null|org.apache.maven.plugins__maven-checkstyle-plugin__2.9.1|org.apache.rat__apache-rat-plugin__0.11|org.codehaus.mojo__build-helper-maven-plugin__1.8|null__maven-jar-plugin__null</m:maven.plugins>
 		<m:dependency.management__org.apache.httpcomponents__httpcore__version>4.3.3</m:dependency.management__org.apache.httpcomponents__httpcore__version>
 		<m:dependency.management__commons-logging__commons-logging__version>1.1.3</m:dependency.management__commons-logging__commons-logging__version>
 		<m:dependency.management__commons-codec__commons-codec__version>1.6</m:dependency.management__commons-codec__commons-codec__version>
