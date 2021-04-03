@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="com.vladsch.flexmark"
+		module="flexmark-ext-footnotes"
+		revision="0.35.10"
+		status="release"
+		publication="20190327133502"
+	>
+		<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause" />
+		<description homepage="">
+		flexmark-java extension for footnote inline elments and footnote definitions
+		</description>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-gfm-users__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-gfm-users__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-media-tags__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-media-tags__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-all__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-all__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-docx-converter__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-docx-converter__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-footnotes__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-footnotes__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-ins__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-ins__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-escaped-character__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-escaped-character__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-autolink__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-autolink__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-toc__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-toc__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-zzzzzz__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-zzzzzz__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-definition__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-definition__version>
+		<m:properties__nexus.staging.autoRelease>false</m:properties__nexus.staging.autoRelease>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-gfm-tasklist__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-gfm-tasklist__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-emoji__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-emoji__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-yaml-front-matter__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-yaml-front-matter__version>
+		<m:properties__flexmark.javadoc.location>${project.basedir}/target/apidocs/</m:properties__flexmark.javadoc.location>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-wikilink__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-wikilink__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-gitlab__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-gitlab__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-xwiki-macros__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-xwiki-macros__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-test-util__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-test-util__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-jira-converter__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-jira-converter__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-spec-example__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-spec-example__version>
+		<m:dependency.management__junit__junit__version>4.12</m:dependency.management__junit__junit__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-anchorlink__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-anchorlink__version>
+		<m:dependency.management__org.openjdk.jmh__jmh-generator-annprocess__version>1.13</m:dependency.management__org.openjdk.jmh__jmh-generator-annprocess__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-formatter__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-formatter__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-html-parser__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-html-parser__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-pdf-converter__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-pdf-converter__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-attributes__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-attributes__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-util__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-util__version>
+		<e:sbtTransformHash>03f36fe7c0b98c1503c1f4313453be57500a750e</e:sbtTransformHash>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-aside__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-aside__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-superscript__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-superscript__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-profile-pegdown__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-profile-pegdown__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-youtrack-converter__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-youtrack-converter__version>
+		<m:maven.plugins>org.codehaus.mojo__versions-maven-plugin__2.3|org.apache.maven.plugins__maven-compiler-plugin__3.7.0|org.apache.maven.plugins__maven-assembly-plugin__2.6|org.codehaus.mojo__versions-maven-plugin__2.3|org.apache.maven.plugins__maven-compiler-plugin__3.7.0|org.apache.maven.plugins__maven-assembly-plugin__2.6</m:maven.plugins>
+		<m:dependency.management__org.openjdk.jmh__jmh-core__version>1.13</m:dependency.management__org.openjdk.jmh__jmh-core__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-typographic__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-typographic__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-macros__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-macros__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-gfm-strikethrough__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-gfm-strikethrough__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-gfm-tables__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-gfm-tables__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-youtube-embedded__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-youtube-embedded__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-jekyll-front-matter__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-jekyll-front-matter__version>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:dependency.management__com.vladsch.flexmark__flexmark__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-abbreviation__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-abbreviation__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-admonition__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-admonition__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-gfm-issues__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-gfm-issues__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-tables__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-tables__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-jekyll-tag__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-jekyll-tag__version>
+		<m:dependency.management__com.vladsch.flexmark__flexmark-ext-enumerated-reference__version>0.35.10</m:dependency.management__com.vladsch.flexmark__flexmark-ext-enumerated-reference__version>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+		<artifact name="flexmark-ext-footnotes" type="jar" ext="jar" conf="master"/>
+	</publications>
+	<dependencies>
+		<dependency org="com.vladsch.flexmark" name="flexmark-util" rev="0.35.10" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="com.vladsch.flexmark" name="flexmark" rev="0.35.10" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="com.vladsch.flexmark" name="flexmark-test-util" rev="0.35.10" force="true" conf="test->runtime(*),master(compile)"/>
+		<dependency org="com.vladsch.flexmark" name="flexmark-formatter" rev="0.35.10" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+	</dependencies>
+</ivy-module>
